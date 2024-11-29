@@ -3,18 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Choose Your Own Adventure</title>
+  <title>Literary Labyrinth</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div id="game-container">
-    <h1>Choose Your Own Adventure</h1>
-    <p id="story-text">Welcome to the adventure! Choose wisely...</p>
-    <div id="choices">
-      <button onclick="makeChoice(1)">Choice 1</button>
-      <button onclick="makeChoice(2)">Choice 2</button>
+  <!-- Title Page -->
+  <div class="title-page" id="title-page">
+    <h1>Literary Labyrinth</h1>
+    <p>
+      This is a choose-your-own-adventure game through many notable early modern texts, 
+      where you step into a world shaped by the stories that defined centuries. As a 
+      traveler between times and tales, you will explore humanity’s timeless struggles 
+      and discover what it means to connect with stories that resonate across the ages.
+    </p>
+    <p class="disclaimer">
+      Disclaimer: Some of these texts deal with deep and complex topics. They are products 
+      of their time and may contain views or beliefs no longer accepted today. This game 
+      does not agree with everything expressed in these works. Instead, it uses them as a 
+      way to interact with history and draw wisdom, not beliefs.
+    </p>
+    <button id="start-button">Start Your Journey</button>
+  </div>
+
+  <!-- Main Game Container -->
+  <div class="container" id="game-container" style="display: none;">
+    <!-- Map Panel -->
+    <div class="map-panel">
+        <h2>Adventure Map</h2>
+        <div class="map">
+            <svg id="game-map" viewBox="0 0 500 800" xmlns="http://www.w3.org/2000/svg">
+            </svg>
+        </div>
+    </div>
+    
+
+    <!-- Game Panel -->
+    <div class="game-panel">
+      <div class="conversation-log">
+        <h2>Conversation History</h2>
+        <div id="log">
+          <!-- The dynamic content is added here with javascript -->
+        </div>
+      </div>
+      <div class="question-section">
+        <p id="question"></p>
+        <div class="choices">
+        </div>
+      </div>
     </div>
   </div>
-  <script src="script.js"></script>
+
+  <script src=".js/game.js"></script>
+  <script src=".js/map.js"></script>
 </body>
 </html>

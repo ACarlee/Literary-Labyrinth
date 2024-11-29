@@ -1,0 +1,16 @@
+{
+    "question": "Do you enter the forest?",
+    "choices": [
+      {
+        "text": "Yes",
+        "traits": { "bravery": 1 },
+        "next": "chapter2"
+      },
+      {
+        "text": "No",
+        "traits": { "kindness": 1 },
+        "next": "finish"
+      }
+    ]
+  }
+  

@@ -1,33 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, h2, p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.title-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-  }
-  
-  #game-container {
-    margin: 50px auto;
-    max-width: 600px;
+    height: 100vh;
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: Arial, sans-serif;
     padding: 20px;
+    animation: parchmentReveal 1.5s ease-out forwards;
+    transform-origin: top center;
+  }
+  
+  .title-page h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: "Lucida Handwriting", cursive;
+  }
+  
+  .title-page p {
+    max-width: 700px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: 'IM Fell English SC', serif;
+  }
+  
+  .title-page .disclaimer {
+    font-size: 0.9em;
+    color: #555;
+  }
+
+#start-button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#start-button:hover {
+  background-color: #0056b3;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%; /* Use full width */
+    height: 100vh; /* Full screen height */
     background: white;
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Prevent content from overflowing */
+}
+
+.map-panel {
+    flex: 0 0 500px; /* Fixed width for the map */
+    height: 100%; /* Match container height */
+    display: flex;
+    flex-direction: column;
+    overflow: visible; /* Allow map content to extend beyond */
+    background-image: url('images/map.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #8b5a2b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-family: 'IM Fell English SC', serif;
+}
+
+/* SVG Map */
+#game-map {
+    display: block;
+    width: 100%; /* Ensure it adapts to the container */
+    height: auto; /* Let height scale proportionally */    
+    font-size: 1.3em;
+    font-family: "Lucida Handwriting", cursive;
+}
+
+#game-container {
+    transition: background-color 1s;
+    transition: filter 0.5s;
   }
-  
-  button {
-    margin: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
+
+.game-panel {
+    flex: 3; /* Adjust based on preference */
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Stretch to full height */
+}
+
+.conversation-log {
+  flex: 2;
+  padding: 20px;
+  border-bottom: 2px solid #dee2e6;
+  overflow-y: auto;
+  font-family: 'IM Fell English SC', serif;
+  max-height: 300px;
+  font-size: 1.1em;
+  background-color: rgba(255, 239, 208, 0.8);
+  border-radius: 10px;
+  border: 1px solid #8b5a2b;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.conversation-log h2 {
+  margin-bottom: 10px;
+}
+
+#log {
+  height: 100%;
+  overflow-y: auto;
+  font-family: 'IM Fell English SC', serif;
+
+}
+
+.question-section {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#question {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  font-family: 'IM Fell English SC', serif;
+}
+
+.choices {
+  display: flex;
+  gap: 10px;
+}
+
+.choices button {
+  flex: 1;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background 0.3s;
+}
+
+.choices button:hover {
+  background: #0056b3;
+}
+
+#start-button, .choices button {
+  font-family: "Lucida Handwriting", cursive;
+  background-color: #d9b382;
+  color: #3d2b1f;
+  border: 2px solid #8b5a2b;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#start-button:hover, .choices button:hover {
+  background-color: #cda972;
+  transform: scale(1.05);
+}
+
+/* Parchment Background */
+.title-page, .conversation-log {
+    background-image: url('images/parchment.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #8b5a2b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
   }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
+
