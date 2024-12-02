@@ -1,0 +1,79 @@
+{
+    "-comment": "Eve",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Wandering endlessly, the forest gives way to something extraordinary. The air grows sweeter, the ground softer, and the world around you becomes breathtakingly perfect. There are no flaws here, no shadows—only light and beauty. In the distance, you see two figures: a man and a woman. Their movements are graceful, their joy palpable. Adam and Eve, you realize. This must be Paradise. You are struck with a strange awareness: you are an observer, not a participant, in this lost perfection. As you watch, you overhear Eve persuading Adam to separate for a time. She succeeds, and as Adam departs, you follow Eve through her day as you would in the text. But then—rustling. She turns and sees you. Her smile radiates innocence and joy, and she approaches, her voice warm and curious. 'You are not from here,' she says. 'Who are you?'",
+        "choices": [
+          { "number": 0, "text": "'You're Eve. It doesn't matter who I am.'", "next": "q2" },
+          { "number": 1, "text": "'I'm someone extremely happy to be here. I am from a time far, far away.'", "next": "q3" }
+        ]
+      },
+      {
+        "id": "q2",
+        "question": "Eve looks at you, her expression softening but her tone firm. 'It matters very much,' she says. 'You matter. If God gave you the gift to see this place, it must be for a reason. Please, tell me about yourself.' Her voice is full of sincerity and an almost divine warmth, and you find yourself unable to resist her gentle request. 'So,' she continues, 'what is your life like? What is your time like?'",
+        "choices": [
+          { "number": 0, "text": "'I am from a time far, far away. There is a lot that could be said about it.'", "next": "q3" }
+        ]
+      },
+      {
+        "id": "q3",
+        "question": "'A time far away?' Eve's eyes widen with wonder. She steps closer, her expression open and curious. 'What is it like? Tell me everything.'",
+        "choices": [
+          {
+            "number": 0, "text": "Tell Eve everything about the world today- the good, the bad, and the dirty", "next": "q4"
+          },
+          {
+            "number": 1, "text": "Tell Eve only the good parts of the world today.", "next": "q5"
+          },
+          {
+            "number": 2, "text": "Remain vague and change the subject.", "next": "q6"
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "question": "As you explain the triumphs and tragedies of your world, Eve listens intently, her gaze unbroken. But as you speak of pain, strife, and suffering, her expression changes. Confusion clouds her features, and her lips tremble as if forming words she does not know how to say. She looks as though she wants to be angry, but she cannot quite grasp the emotion. Instead, her purity gives way to sadness, and the sight makes your heart ache. You have brought sorrow into Paradise. What does that say about you?",
+        "choices": [
+          { "number": 0, "text": "Continue walking with Eve in silence.", "next": "q7" }
+        ]
+      },
+      {
+        "id": "q5",
+        "question": "You focus only on the beauty of your world: the advances, the joy, the wonder of human ingenuity. Eve smiles brightly, nodding along. 'Your time sounds magnificent,' she says, her voice full of admiration. Yet you notice a glimmer of something in her eyes—perhaps a lack of true comprehension, as if she cannot fully grasp the complexities of what you describe. Still, her joy is genuine, and her company feels lighter.",
+        "choices": [
+          { "number": 0, "text": "Continue walking with Eve in cheerful conversation.", "next": "q7" }
+        ]
+      },
+      {
+        "id": "q6",
+        "question": "You speak in vague terms, deflecting her questions with half-answers and changing the subject. Eve tilts her head slightly but does not press. She smiles warmly and continues walking by your side. You get the sense that she understands only the surface of your words, but her presence remains unwavering, and her happiness at your company seems genuine.",
+        "choices": [
+          { "number": 0, "text": "Continue walking with Eve.", "next": "q7" }
+        ]
+      },
+      {
+        "id": "q7",
+        "question": "You walk with Eve, her curiosity insatiable and her innocence profound. She listens intently, her eyes shining with wonder, even as your words falter under the weight of her purity. Suddenly, you come upon a tree unlike any other: the Tree of Knowledge of Good and Evil. You didn't think it would look like this. Eve pauses, her gaze lingering on the forbidden fruit. 'I've thought about taking some,' she admits hesitantly. 'God said no, but... perhaps it's time. For Adam, for me, and for you, our guest.' She takes a step closer, her resolve growing. You see a serpent coil subtly around a branch, its movements barely perceptible but insidious. Eve's hand hovers near the fruit, her mind made up. Do you intervene?",
+        "choices": [
+          { "number": 0, "text": "Stop Eve and try to prevent the Fall.", "traits": { "intervening": 1 }, "next": "q8" },
+          { "number": 1, "text": "Let Eve take the fruit, knowing the Fall is necessary.", "traits": { "accepting": 1 }, "next": "q9" }
+        ]
+      },
+      {
+        "id": "q8",
+        "question": "You reach out, your voice trembling as you implore Eve to reconsider. She hesitates, her hand withdrawing slightly. 'Why?' she asks, her innocence clouded with confusion. Before you can answer, a loud bang reverberates through the air. The light dims, the air thickens, and everything begins to crumble. God has decided you are no longer welcome here. Paradise disappears, and so does Eve. You are thrown back into the unknown, alone and burdened by the weight of your choice.",
+        "choices": [
+          { "number": 0, "text": "Move forward.", "next": "chapter7" }
+        ]
+      },
+      {
+        "id": "q9",
+        "question": "You say nothing, watching as Eve plucks the fruit and takes a bite. There’s a moment of silence, as if the universe holds its breath. Then—a bang, and everything collapses. Paradise dissolves into darkness, and you are thrust out. God’s judgment is clear: you have seen enough. What remains is the memory of Eve, and the knowledge that you let the Fall happen. The path ahead is dark, but you must press on.",
+        "choices": [
+          { "number": 0, "text": "Move forward.", "next": "chapter8" }
+        ]
+      }
+    ]
+  }
+  

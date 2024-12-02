@@ -172,6 +172,7 @@ body {
   cursor: pointer;
   font-size: 1em;
   transition: background 0.3s;
+  position: relative;
 }
 
 .choices button:hover {
@@ -204,4 +205,15 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
   }
+
+  #noButton {
+    position: absolute;
+    transition: top 0.1s, left 0.1s; /* Smooth movement */
+  }
+
+  
+  
+  
+  
+  
 

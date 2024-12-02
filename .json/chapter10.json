@@ -1,0 +1,98 @@
+{
+  "-comment": "The Blazing World",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "As you escape out of Utopia, a swirling vortex of colors envelops you, and suddenly, you find yourself in a vibrant, chaotic world where creativity and individuality reign supreme—but so does disorder. Amidst the bustling streets and fantastical architecture, a towering figure with a mane of shimmering hair approaches you. It's a Bearman, his eyes sharp with curiosity. 'You’re different,' he observes, his voice a harmonious blend of authority and warmth. 'Come, I’ll take you to the capital to meet Cavendish. She’s the heart of this world.' How do you respond?",
+      "choices": [
+        { "number": 0, "text": "'I appreciate your offer and would like to follow.'", "next": "q2" },
+        { "number": 1, "text": "'I’m still trying to understand this place. Can you explain some things?.'", "next": "q2" }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "The Bearman smiles, a gesture of both welcome and caution. 'Very well. Let’s walk.' As you journey through the kaleidoscopic streets, you notice how each individual seems uniquely expressive yet part of a larger, chaotic harmony. Do you:",
+      "choices": [
+        { "number": 0, "text": "'Ask about the Bearman's life.'", "next": "q3" },
+        { "number": 1, "text": "'Ask about this world.'", "next": "q4" },
+        { "number": 2, "text": "'Ask about Cavendish.'", "next": "q5" }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "Curious about your guide, you turn to the Bearman. 'Tell me about yourself. What’s your role here? What is your life like?' He pauses, his eyes reflecting a hint of melancholy beneath his confident exterior. 'I am a bearman. We work together, doing the job we are best at,' he explains. You observe the intricate designs of the city, realizing the underlying lack of true individuality beyond the surface-level creativity.",
+      "choices": [
+        { "number": 0, "text": "'And, how do you feel about that? What even is your name?'", "next": "q6" },
+        { "number": 1, "text": "'Sounds like a great community. You must never be lonely'", "next": "q6" }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": "You inquire about the world, and the Bearman responds, 'This is a place where every skill is honed, and peace is maintained through collective unity. Each individual contributes to the greater tapestry, ensuring that no single thread disrupts the whole.' As you look around, you see artists, scientists, and philosophers all engaged in their unique pursuits, yet somehow, a strange uniformity persists beneath the surface.",
+      "choices": [
+        { "number": 0, "text": "'It sounds harmonious.'", "next": "q6" },
+        { "number": 1, "text": "'It sounds constraining.'", "next": "q6" }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": "Curious about the enigmatic Cavendish, you ask, 'Who is Cavendish, and what role does she play here?' The Bearman’s eyes light up with reverence. 'Cavendish is the visionary behind this world. Her beauty is matched only by her intellect, and her curiosity drives her to ask the deepest questions about existence and perfection,' he says, his voice tinged with awe.",
+      "choices": [
+        { "number": 0, "text": "'I’d like to meet her.'", "next": "q6" },
+        { "number": 1, "text": "'I'm sure she has faults'", "next": "q6" }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": "The bearman hums unresponsively. Your conversation is done as you reach the captial.",
+      "choices": [
+        { "number": 0, "text": "'Carry on.'", "next": "q7" }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": "You reach the grand capital, a dazzling cityscape where architecture bends reality and colors dance in the air. Cavendish stands at the center, her presence radiant and commanding. She looks at you with piercing eyes, her beauty almost ethereal. 'Welcome,' she says, her voice melodic yet authoritative. 'What brings you to my realm?'",
+      "choices": [
+        { "number": 0, "text": "'I wish to stay and contribute to this world.'", "next": "q8" },
+        { "number": 1, "text": "'I am only a traveler passing through.'", "next": "q9" },
+        { "number": 2, "text": "'I wish for you to change parts of this world— the problematic parts.'", "next": "q10" }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": "Cavendish smiles warmly. 'I welcome you to stay. Your uniqueness is a valuable asset to our collective harmony.' With a graceful gesture, she transforms you into a Bearman, your individuality gently fading as you integrate seamlessly into the bustling society. You become one of many, your name forgotten, your past erased. The game ends here, as you live the rest of your life like the others.",
+      "choices": [
+        { "number": 0, "text": "The End", "next": "finish" }
+      ]
+    },
+    {
+      "id": "q9",
+      "question": "Cavendish listens to your words with an attentive gaze. 'Tell me about your journey so far,' she requests, her curiosity as sharp as ever. You share every detail of your stange journey, and she becomes awestruck by your experiences. 'Your journey is remarkable,' she exclaims. 'I grant you the power to create your own world—a realm where you can experience and rule as you see fit.' With a brilliant flash, you are enveloped in white light, feeling the boundless potential of creation at your fingertips. The game ends here, leaving your continuation to your imagination.",
+      "choices": [
+        { "number": 0, "text": "Create your world as you see fit.", "next": "finish" }
+      ]
+    },
+    {
+      "id": "q10",
+      "question": "You assert your desire to fix the problematic parts of Cavendish's world. 'This so-called perfection overlooks fundamental flaws. Utopia isn't real; it's flawed and oppressive.' Cavendish's eyes narrow, her voice sharp with indignation. 'Problematic? You speak of flaws in this world as though you’ve seen perfection. I crafted this from the chaos of my origin, where true disharmony reigned. You, who barely comprehend balance, dare to critique what you cannot grasp?' Her tone grows harsher, her words like a blade. 'Do you truly think this isn't perfection?",
+      "choices": [
+        { "number": 0, "text": "Stand by your stance.", "next": "q11" },
+        {"number" : 1, "text" : "Digress, admitting that this is as close to perfection as possible.", "next" : "q12"}
+      ]
+    },
+    {
+      "id": "q11",
+      "question": "You stand firm in your convictions, explaining that true utopia doesn't exist and that you’ve seen flaws even in the most perfect societies. Cavendish’s expression twists into fury, her voice a searing storm. 'You think yourself wise, a judge of perfection?' she spits. 'You, who have not borne the weight of shaping a world from nothing, speak of flaws. If you believe you can do better, prove it.' Her hand rises, and the air ripples with an unnatural force. 'I grant you your own world—a blank canvas. Rule it. Shape it. Live with the consequences.' Her gaze is cold as reality fractures around you. 'Perhaps then, you will learn to appreciate what I have accomplished here.' You are cast into an endless void, where the responsibility of creation weighs heavily upon you. The game ends here, leaving the continuation of your story to your own imagination.",
+      "choices": [
+        { "number": 0, "text": "Create your own world.", "next": "finish" }
+      ]
+    },
+    {
+      "id": "q12",
+      "question": "You hesitate, then relent. 'Never mind,' you mutter, unsure of your footing. Cavendish’s eyes blaze with fury, her voice cutting like ice. 'Coward!' she snarls. 'You question my world, then retreat into silence? You would dare insult my creation, born from suffering and chaos, only to offer no solution? You have not earned the right to judge.' With a wave of her hand, a maelstrom of memories and sensations engulfs you. 'Go back to your original world. Feel the chaos, the ignorance, the suffering I escaped. Perhaps then, you will understand the gift I created here.' The world collapses around you, and you awaken on Earth, your connection to the Blazing World severed. The game ends, your journey through literature lost forever.",
+      "choices": [
+        { "number": 0, "text": "The End", "next": "finish" }
+      ]
+    }    
+  ]
+}

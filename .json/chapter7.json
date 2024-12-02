@@ -1,0 +1,74 @@
+{
+    "-comment": "Faustus",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "The devil stands before you, his smirk dripping with malice. 'You claim you could stop the fall, but talk is cheap. Such a feat is impossible! To prove my point, let me propose a deal: prove to me that even the damned can be saved. Save Faustus, and I'll let you go free. Fail, and your soul is mine.' Mephistopheles lingers nearby, watching. Faustus sits alone, haunted and broken. Do you accept the challenge?",
+        "choices": [
+          { "number": 0, "text": "'I accept. Everyone deserves a second chance.'", "next": "q2" },
+          { "number": 1, "text": "'I refuse. This is a trap.'", "next": "q3" }
+        ]
+      },
+      {
+        "id": "q2",
+        "question": "You approach Faustus, who seems lost in thought, his hands trembling over a book of forbidden knowledge. 'Who are you?' he asks. 'Another tormentor? Or someone foolish enough to think you can help?' Mephistopheles interjects with a chuckle, 'He is beyond saving. You will see.' How do you respond?",
+        "choices": [
+          { "number": 0, "text": "'I'm here to help you. You aren't beyond saving.'", "next": "q4" },
+          { "number": 1, "text": "'I am no savior, but I can show you another path.'", "next": "q4" }
+        ]
+      },
+      {
+        "id": "q3",
+        "question": "You refuse the devil's challenge. He laughs. 'Cowardice suits you. Perhaps you never believed in salvation after all.' The game ends here, with your soul intact (we hope) but your purpose unfulfilled.",
+        "choices": [
+            {"number" : 0, "text": "The Devil Wins", "next" : "finish"}
+        ]
+      },
+      {
+        "id": "q4",
+        "question": "Faustus sneers. 'Another preacher? Spare me. You can't undo my pact, and I can't undo my desires.' Mephistopheles leans closer, whispering, 'He won't listen. Why try?' What do you do?",
+        "choices": [
+          { "number": 0, "text": "Appeal to Faustus's guilt. 'Think of those you've hurt. You can still make amends.'", "next": "q5" },
+          { "number": 1, "text": "Appeal to Faustus's pride. 'You sought greatness, but is this all it amounts to?'", "next": "q5" }
+        ]
+      },
+      {
+        "id": "q5",
+        "question": "Faustus falters, his confidence wavering. 'Do you really think there is a way out for me?' he asks, voice trembling. Mephistopheles laughs darkly. 'You give him false hope, but hope only delays the inevitable.' Do you press on or step back?",
+        "choices": [
+          { "number": 0, "text": "Press on: 'There is always hope, even for you.'", "next": "q6" },
+          { "number": 1, "text": "Step back: 'Perhaps you are right. I'm sorry.'", "next": "q7" }
+        ]
+      },
+      {
+        "id": "q6",
+        "question": "You continue urging Faustus to renounce his pact. As the clock nears midnight, Mephistopheles hisses, 'Enough. The deal is sealed.' The devil returns, his voice thunderous. 'Decide now: admit he is damned and walk away, or stay and burn alongside him. Admit that humans are damned- damned to fall and damned now! And you, you have no power over it!' What do you do?",
+        "choices": [
+          { "number": 0, "text": "Take the opportunity. Turn your back on Faustus, leaving him to his own damination.", "next": "q8" },
+          { "number": 1, "text": "Stay and refuse to abandon Faustus for he can still be saved.", "next": "q9" }
+        ]
+      },
+      {
+        "id": "q7",
+        "question": "You step back, and Faustus sinks into despair. Mephistopheles smirks. 'Cowardice. He is mine.' The devil watches as you give up, sealing Faustus's fate, and Faustus's damnation brings upon your own.",
+        "choices": [
+            {"number" : 0, "text": "The Devil Wins", "next" : "finish"}
+        ]
+      },
+      {
+        "id": "q8",
+        "question": "As you turn your back on Faustus, the devil laughs. 'Wise choice.' Behind you, Faustus cries out, but it is too late. The game ends with your soul intact, but his forever lost. You walk on, off somewhere else, without as much trust in humanity.",
+        "choices": [
+            {"number" : 0, "text": "Journey onwards", "next" : "chapter9"}
+        ]
+      },
+      {
+        "id": "q9",
+        "question": "You refuse to abandon Faustus, standing with him as the clock strikes midnight. The devil grins, 'Both of you, then.' The fires of hell consume you both. The game ends with your shared damnation, but perhaps not without purpose.",
+        "choices": [
+        {"number" : 0, "text": "The Devil Wins", "next" : "finish"}
+        ]
+      }
+    ]
+  }
+  

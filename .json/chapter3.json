@@ -1,0 +1,104 @@
+{
+    "-comment": "Queen Mariam",
+    "questions": [
+        {
+            "id": "q1",
+            "question": "The forest opens into a small clearing, where a striking woman paces back and forth, her long gown trailing in the dirt as if the earth itself bows beneath her. Her face is etched with a storm of emotions—grief, anger, and something like defiance. She mutters under her breath, her words sharp enough to slice the still air. As you step closer, her gaze snaps to you, and her voice rings out, both commanding and curious. 'Who are you, to wander so boldly into my torment? Speak quickly, or perhaps you’ve come to judge me, as so many others do.'",
+            "choices": [
+              { "number": 0, "text": "I mean no offense. Who are you?", "next": "q2" },
+              { "number": 1, "text": "I have heard your name whispered. You are Mariam, yes?", "next": "q3" }
+            ]
+          },
+          {
+            "id": "q2",
+            "question": "The woman regards you coolly, her chin lifting with a regal grace. 'I am Mariam, queen to Herod, though not by my own desire. My father and brother—murdered by his hand, and yet he dares to call me his wife. Tell me, wanderer, do you believe love can coexist with such betrayal?' Her voice softens, though the fire in her eyes remains. 'Speak, if you dare. I find it amusing to hear how strangers make sense of the senseless.'",
+            "choices": [
+              { "number": 0, "text": "No, love cannot survive such a betrayal.", "next": "q4" },
+              { "number": 1, "text": "Perhaps love is more complicated than betrayal alone.", "next": "q5" }
+            ]
+          },
+          {
+            "id": "q3",
+            "question": "Mariam narrows her eyes, studying you with suspicion before her expression softens into something closer to weariness. 'Yes, I am Mariam. And if you know my name, then you must know my tragedy as well. My life is a tale woven of grief and defiance.' She pauses, her voice growing quieter, as if speaking to herself. 'Even now, I debate whether to forgive Herod or to curse his name until my final breath. Tell me, stranger, what would you do in my place?'",
+            "choices": [
+              { "number": 0, "text": "I would curse him. Some acts are unforgivable.", "next": "q4" },
+              { "number": 1, "text": "I would forgive him. To hold hatred in your heart is its own kind of prison.", "next": "q6" }
+            ]
+          },
+          {
+            "id": "q4",
+            "question": "Mariam nods, a bitter smile tugging at her lips. 'You speak the truth, and yet, what good does truth do me? He holds the power, and I—' she gestures to herself, her voice laced with irony, 'I am the queen in name only. Come, stranger, let us return to the castle. Perhaps you will see for yourself how fate mocks me.'",
+            "choices": [
+                { "number": 0, "text": "Follow after her.", "next": "q7" }
+              ]
+          },
+          {
+            "id": "q5",
+            "question": "Her gaze sharpens, a flicker of interest crossing her face. 'Complicated, yes. Perhaps you understand more than most. Love is not a simple thing, is it? It binds and breaks in equal measure. Come, stranger. Walk with me to the castle, and I will show you the face of love twisted by power and pride.'",
+            "choices": [
+                { "number": 0, "text": "Follow after her.", "next": "q7" }
+              ]
+          },
+          {
+            "id": "q6",
+            "question": "Mariam regards you with a mix of skepticism and curiosity. 'Forgive him? Do you think forgiveness would free me? Or would it only tighten the chains that already bind me to him?' She shakes her head, her expression unreadable. 'You are either wise or naive, stranger. Come. Let us see what wisdom or folly awaits us at the castle.'",
+            "choices": [
+                { "number": 0, "text": "Follow after her.", "next": "q7" }
+              ]
+          },
+          {
+            "id": "q7",
+            "question": "The walk to the castle is somber, the forest growing darker as the towering walls of Herod’s home loom ahead. Mariam speaks little, her mind clearly elsewhere. When you arrive, the air is tense with unspoken words, and Herod himself greets you with a wary gaze. Yet, it doesn’t take long for accusations to fly. Herod, consumed by paranoia, accuses Mariam of plotting his murder. The room erupts in chaos as all eyes turn to her. Among all of the voices shouting out, Mariam's is absent. You know that should she not speak, she will killed for something you know she did not do (assuming you did the reading in class).",
+            "choices": [
+              { "number": 0, "text": "Criticize Mariam: 'Fight for your life! Speak, and defend yourself!'", "next": "q8" },
+              { "number": 1, "text": "Remain silent, as Mariam does.", "next": "q9" }
+            ]
+          },
+          {
+            "id": "q8",
+            "question": "Mariam turns her gaze to you, her expression one of profound sadness and resignation. 'Why are you trying to save me? You know my destiny, as I do. We cannot escape it. Do you think you can change fate?' Her voice echoes in the chamber, silencing the crowd for a moment. But Herod’s wrath is unyielding, and Mariam is led away to meet her doom.",
+            "choices": [
+                { "number": 0, "text": "Fate could be changed if one tried", "next": "q10" },
+                {"number" : 1, "text" : "No. This could not have been avoided.", "next" : "q10"}
+              ]
+          },
+          {
+            "id": "q9",
+            "question": "The room grows cold as Mariam’s silence seals her fate. Herod’s guards seize her, and she does not struggle. Her head held high, she is led away. The tragedy unfolds before your eyes, and you are left with the heavy weight of what could not be changed.",
+            "choices": [
+                { "number": 0, "text": "Live with the weight of her death.", "traits": { "killer": 1 }, "next": "q10" }
+              ]
+          },
+          {
+            "id": "q10",
+            "question": "As Mariam’s death sends ripples through the court, you find yourself face-to-face with Salome, whose scheming played a part in this tragedy. You know the role she played, and the choice is yours.",
+            "choices": [
+              { "number": 0, "text": "Confront Salome with anger.", "next": "q11" },
+              { "number": 1, "text": "Confront Salome with cunning.", "next": "q12" },
+              { "number": 2, "text": "Say nothing and walk away.", "next": "q13" }
+            ]
+          },
+          {
+            "id": "q11",
+            "question": "Your anger spills out in a torrent of accusations. Salome’s eyes narrow, her lips curling into a venomous smile. 'You are bold, but boldness is not wisdom.' However, your passionate, angry words resonate with the king, who is struck by the strength of your conviction. 'You speak as a man with courage,' Herod says, turning his anger towards Salame. 'She has schemed and brought shame upon this nation!' Since the king could believe a man moreso than any woman, Salame is sentenced to death, beheaded before the court. The king warns you to leave the castle and never speak of this incident again for no nation will want to remember such an event.",
+            "choices": [
+                { "number": 0, "text": "Escape into the woods", "traits": { "killer": 1 }, "next": "chapter4" }
+              ]
+          },
+          {
+            "id": "q12",
+            "question": "Your words are measured, your tone smooth as you weave your accusations with subtlety. Salome listens, her expression unreadable. But when she strikes, it is quick and merciless. A dagger in the dark, and you fall, realizing too late that cunning alone cannot outmatch a snake in its den.",
+            "choices": [
+                { "number": 0, "text": "You are out of options", "next": "finish" }
+              ]
+          },
+          {
+            "id": "q13",
+            "question": "You turn away, the weight of Mariam’s tragedy and Salome’s schemes heavy on your shoulders. The castle walls seem to close in as you walk, but you know this: you will carry this story with you, a reminder of how fate cannot always be swayed.",
+            "choices": [
+                { "number": 0, "text": "Leave the caslte and never look back.", "next": "chapter5" }
+              ]
+          }
+          
+    ]
+  }

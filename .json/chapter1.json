@@ -1,16 +1,37 @@
 {
-    "question": "Do you enter the forest?",
-    "choices": [
-      {
-        "text": "Yes",
-        "traits": { "bravery": 1 },
-        "next": "chapter2"
-      },
-      {
-        "text": "No",
-        "traits": { "kindness": 1 },
-        "next": "finish"
-      }
-    ]
-  }
-  
+  "-comment": "start",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "You are a traveler in search of your truth. Tell me, are you driven by honor and purpose, or do you run from shadows that linger in your life? We turn to literature for many reasons: to seek wisdom, to lose ourselves, or perhaps something in between. So, wanderer, what brings you here? Speak, and let the story unveil your path.",
+      "choices": [
+        { "number": 0, "text": "I am seeking something.", "traits": { "wishful": 1 }, "next": "q2" },
+        { "number": 1, "text": "I am escaping something in my life.", "traits": { "fearful": 1 }, "next": "q2" }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "Interesting. Very interesting. I shall accompany you through your journey, unseen yet ever-present. Here, I offer you a companion—a small aid for one of her sort. She is, after all, a woman. Will she serve you well on this quest, or shall her nature hinder you?",
+      "choices": [
+        { "number": 0, "text": "No, for a woman’s place is not on such a journey.", "next": "q3" },
+        { "number": 1, "text": "No, for surely I cannot gain anything from a woman.", "next": "q3" }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "That is quite an answer. Do you hate womeakind?",
+      "choices": [
+        { "number" : 0, "text": "Yes, Womankind are awful", "next": "q4" },
+        { "number" : 1, "text": "No", "id": "no-button", "next": "q4"}
+      ]
+    },
+    {
+      "id": "q4",
+      "question": "Ah, well, at least you shall have something in common with the souls you meet along the way. Still, you ought to speak with her and gauge what use she may bring. But beware—conversations are perilous things. They twist and turn, often becoming far more than you bargained for. So, traveler, I ask: are you certain you wish to proceed?",
+      "choices": [
+        { "number" : 0, "text": "Yes, I shall apprach", "next": "chapter2"}, 
+        { "number" : 1, "text": "No, I shall turn back", "next": "finish"}
+      ]
+    }
+  ]
+}

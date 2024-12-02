@@ -1,0 +1,86 @@
+{
+    "-comment": "Houyhnhnmas",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "As you wander out of the woods, you come across a strange settlement. Houses and shelters are visible in the distance, but between you and them are horses, standing still yet watchful. Something about their presence feels... off. The choice is yours: Will you speak to the horses in Houyhnhnm tongue (a language you know only from Mendaville’s writings), or will you walk past them, hoping to reach the settlement unnoticed?",
+        "choices": [
+          { "number": 0, "text": "Speak to the horses in Houyhnhnm tongue (Full send. This will be embarrassing).", "next": "q2" },
+          { "number": 1, "text": "Ignore the horses and proceed to the settlement.", "next": "q3" }
+        ]
+      },
+      {
+        "id": "q2",
+        "question": "You muster your courage and begin speaking in Houyhnhnm tongue. It feels absurd at first, neighing and whinnying like a horse, but the sound of your voice seems to capture their attention. To your amazement, they respond! You understand them perfectly, as if Mendaville’s writings have unlocked a magic within you. 'What brings you here, stranger?' one horse asks with an air of dignity.",
+        "choices": [
+          { "number": 0, "text": "'I seek to learn from your wisdom and ways.'", "next": "q4" },
+          { "number": 1, "text": "'I mean no harm, only to pass through.'", "next": "q5" }
+        ]
+      },
+      {
+        "id": "q3",
+        "question": "You choose to ignore the horses and press on toward the settlement. Yet, as you approach, the townsfolk avert their eyes and refuse to engage with you. Whispers reach your ears: 'Who dares to disrespect the Houyhnhnmas?' Without their aid or information, you have no choice but to leave.",
+        "choices": [
+          {
+            "number": 0, "text": "Reflect on the cost of fearing embarrassment. You must leave and journey onwards; there is no rest here.", "next": "chapter6"
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "question": "The Houyhnhnmas regard you with curiosity and a hint of respect. 'You are a rare human to know our ways,' one says. They speak of their harmony, their disdain for the irrationality of humans, and their ideals of order and reason. You feel the weight of their words. 'Do you wish to stay among us and learn more?' they ask.",
+        "choices": [
+          { "number": 0, "text": "Attempt to assimilate into their society.", "next": "q6" },
+          { "number": 1, "text": "Thank them and leave, knowing you'd never be accepted.", "next": "q5" }
+        ]
+      },
+      {
+        "id": "q5",
+        "question": "Leaving the Houyhnhnmas behind, you enter the settlement. The townsfolk regard you with suspicion but eventually approach. 'Did you truly speak to them?' they ask, barely above a whisper. Here, where horses and humans live side by side yet separate, the rules are strict, and the curiosity immense. What will you tell them?",
+        "choices": [
+          { "number": 0, "text": "Exaggerate your story for money and fame.", "next": "q7" },
+          { "number": 1, "text": "Express curiosity about the horses and consider returning to them.", "next": "q8" },
+          { "number": 2, "text": "Tell the plain truth.", "next": "q9" }
+        ]
+      },
+      {
+        "id": "q6",
+        "question": "Despite your efforts to adapt, it becomes clear that you will never truly belong among the Houyhnhnmas. They appreciate your attempts but maintain their distance for now. You live constantly on edge, like any moment, they will confront you. Finally, they say 'You are welcome to visit, but we cannot accept you fully.' With no other choice, you leave, progressing to the settlement nearby.",
+        "choices": [
+          { "number": 0, "text": "Enter the settlement.", "next": "q5" }
+        ]
+      },
+      {
+        "id": "q7",
+        "question": "You weave a grand tale of unity and wisdom, claiming the Houyhnhnmas welcomed you as one of their own and taught you of their advanced ways, methods that humans could adapt with a little work and a small fee or two. The townsfolk are in awe, offering you coin and gifts for your tale. 'A true writer you are!' the narrator interjects. 'Making up such a story! Turning a molehill into a mountain.'",
+        "choices": [
+          { "number": 0, "text": "Defend yourself", "next": "q10" },
+          { "number": 1, "text": "Defend authors", "next": "q10" }
+        ]
+      },
+      {
+        "id": "q8",
+        "question": "You express a longing to return to the Houyhnhnmas and learn more. The townsfolk whisper among themselves, cautioning you about the challenges of crossing their carefully maintained borders. 'Yet, if you feel compelled, who are we to stop you?'",
+        "choices": [
+          { "number": 0, "text": "Return to the Houyhnhnmas and stay with them.", "next": "finish" },
+          {"number":1, "text": "Leave behind the Houyhnhnmas, continuing on to your next journey.", "next" : "chapter6"}
+        ]
+      },
+      {
+        "id": "q9",
+        "question": "You tell the truth: 'I spoke to them, but I am no closer to understanding them than I was before.' The townsfolk nod politely but lose interest quickly. The narrator sighs, 'How boring. Where's the flourish, the intrigue? There is nothing more to do but keep moving now.'",
+        "choices": [
+          { "number": 0, "text": "Reflect on your honesty and move on.", "next": "chapter6" }
+        ]
+      },
+      {
+        "id": "q10",
+        "question": "'Yes, Yes' the narrator dismisses. 'I promised I would stay with you, so there is no reason to argue with me here. You have made your money and they will remember your name. Time to move on.",
+        "choices": [
+          { "number": 0, "text": "Journey onwards", "next": "chapter6" }
+        ]
+      }
+    ]
+  }
+  
+  

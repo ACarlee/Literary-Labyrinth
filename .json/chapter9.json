@@ -1,0 +1,76 @@
+{
+  "-comment": "The Tempest",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "The devil smirks, his crimson eyes gleaming with mischief. 'You gave up in the face of Faustus, so I’ll spare your soul—at least for now—but I’ll leave you stranded somewhere...interesting.' His laughter fades as the world darkens, and you awaken on a windswept shore. The air crackles with a strange energy, and soon you encounter a hunched figure—a man with skin weathered like bark and eyes burning with bitterness. Caliban snarls as he rants about Prospero, his master. 'That tyrant! That thief!' he spits, his voice raw with venom. He looks at you with suspicion. How do you respond?",
+      "choices": [
+        { "number": 0, "text": "'Prospero does seem harsh. I sympathize with you.'", "next": "q2" },
+        { "number": 1, "text": "'Stop complaining and take control of your fate!'", "next": "q2" }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "Caliban narrows his eyes, his body stiffening as if gauging whether to trust you. 'Hah! What do you know of suffering? You make quick statements without any information! Only I know my life.' he sneers. Then his tone softens, almost begrudgingly. 'Still, you’re not Prospero... What are you doing here?' His words carry the weight of someone who has learned to expect treachery. You feel his eyes boring into you, searching for answers.",
+      "choices": [
+        { "number": 0, "text": "'I was dropped here. I mean no harm; I want peace.'", "next": "q3" },
+        { "number": 1, "text": "'I am a traveler, only here temporarily.'", "next": "q3" },
+        { "number": 2, "text": "'Perhaps it is divine intervention—I am meant to replace Prospero.'", "next": "q3" }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "Caliban’s suspicious gaze lingers on you, but he gestures for you to follow. The island seems alive, its lush greenery whispering secrets as the wind snakes through the trees. The rhythmic crash of waves provides a haunting soundtrack. As you ascend a rocky hill, a figure looms in the distance. Prospero stands tall, his gaze sharp as flint. His staff crackles with barely contained energy. 'And who is this?' he asks, his tone neither welcoming nor hostile—yet. Caliban steps forward, muttering about your arrival. Prospero’s piercing eyes focus on you. 'Why have you come to my island?' he demands.",
+      "choices": [
+        { "number": 0, "text": "'I intend to overthrow you.'", "next": "q4" },
+        { "number": 1, "text": "'I am merely passing through.'", "next": "q5" },
+        { "number": 2, "text": "'I seek peace and a home here.'", "next": "q5" }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": "Prospero’s lips curl into a cold, humorless smile. 'Ambition is a dangerous thing, especially for the uninvited,' he says, his voice cutting like a blade. Before you can act, his staff moves with deadly precision, unleashing a surge of magical force. You try to resist, but the power overwhelms you. The last thing you see is Prospero’s unyielding glare. Your journey ends in failure, your defiance extinguished.",
+      "choices": [
+        { "number": 0, "text": "Prospero Wins", "next": "finish" }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": "Prospero’s expression shifts—perhaps amusement, or perhaps suspicion. 'Peace is rare in this world,' he murmurs, more to himself than to you. 'Very well. If you truly mean no harm, perhaps you should acquaint yourself with the inhabitants of this island. There are those you must meet, if only to understand the forces at play.' He gestures, dismissing you as if you were an afterthought. 'Choose wisely who you approach,' he warns, his voice lingering like a shadow. Who will you seek out first?",
+      "choices": [
+        { "number": 0, "text": "Ariel", "next": "q6" },
+        { "number": 1, "text": "Miranda", "next": "q7" }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": "Ariel materializes like a breeze taking form, his ethereal glow illuminating the darkening forest. His voice is soft yet carries the weight of centuries. 'I serve Prospero,' he says, though the words are tinged with resentment. 'I owe him my freedom, yet he binds me still. Tell me, stranger, can you truly understand the agony of chains unseen?' He studies you closely, his gaze both hopeful and wary.",
+      "choices": [
+        { "number": 0, "text": "'Yes, we should overthrow Prospero together.'", "next": "q8" },
+        { "number": 1, "text": "'No, I must persist on my peaceful path.'", "next": "q9" }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": "Miranda greets you in a secluded glade, her presence as serene as the gentle rustle of leaves. 'You’re not like my father’s spirits,' she says, her curiosity radiating like sunlight breaking through clouds. 'You feel... human. I have not met one like you before.' Her naivety is disarming, yet her words carry an earnestness that demands honesty. Her presence reminds you of Eve before the fall—untouched by the world's malice.",
+      "choices": [
+        { "number": 0, "text": "Tell Miranda to leave the island and explore life with the freedom to explore", "next": "q9" },
+        { "number": 1, "text": "Nod, promising Miranda that in time, she will meet others like yourself, for this is guaranteed.", "next": "q9" }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": "Ariel’s ethereal voice rises in determination, and together, you confront Prospero. The air thickens with tension as the storm you summon churns above, its fury echoing Ariel’s long-buried rage. Prospero’s magic meets yours in a clash of wills, but Ariel’s tempest overwhelms him. As his staff shatters and he falls, the island itself seems to exhale. Now, with Prospero gone, the island’s future lies in your hands. What kind of ruler will you be?",
+      "choices": [
+        { "number": 0, "text": "Decide the type of ruler to become. There are too many options to follow; you must decide for yourself.", "next": "finish" }
+      ]
+    },
+    {
+      "id": "q9",
+      "question": "Without anymore room for conversation, Prospero is suddenly behind you. His gaze turns icy as he waves his staff. 'You carry the devil’s shadow,' he declares, 'He walked with you. I sense the misfortune and chaos you bring. I cannot have that.' Despite Ariel’s protests and Miranda’s tears, Prospero's judgment is swift. A flash of light, and the world goes dark. Your journey ends here, a victim of mistrust and fate.",
+      "choices": [
+        { "number": 0, "text": "Prospero Wins", "next": "finish" }
+      ]
+    }
+  ]
+}
