@@ -38,7 +38,7 @@
       "id": "q5",
       "question": "Curious about the enigmatic Cavendish, you ask, 'Who is Cavendish, and what role does she play here?' The Bearman’s eyes light up with reverence. 'Cavendish is the visionary behind this world. Her beauty is matched only by her intellect, and her curiosity drives her to ask the deepest questions about existence and perfection,' he says, his voice tinged with awe.",
       "choices": [
-        { "number": 0, "text": "'I’d like to meet her.'", "next": "q6" },
+        { "number": 0, "text": "'I would like to meet her.'", "next": "q6" },
         { "number": 1, "text": "'I'm sure she has faults'", "next": "q6" }
       ]
     },

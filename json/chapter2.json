@@ -15,7 +15,7 @@
         "id": "q2",
         "question": "As you approach the Lady of Bath, she looks at you with a raised brow, her lips curving into a teasing smile. “Ah, knowledge, you say?” She chuckles softly. “What good is all that knowledge trapped in your head? You spend all your time buried in books, forgetting to live—to breathe, to speak to others. I get my knowledge from talking, from sharing a story or two. There’s enough to learn from the people around you, my dear. Why would you ever settle for a book? A book can’t tell you the joy of a fire crackling or the laughter of strangers, or the weight of a hand on your shoulder in a moment of silence.” She looks you up and down, her eyes glinting with mischief. “Go ahead, think about it. You’ll find far more wisdom in a simple conversation than in the thickest volumes of ink and paper. Don’t be so quick to dismiss the world around you. You might learn something that’ll make all those facts feel awfully small in comparison.”",
         "choices": [
-          { "number" : 0, "text": "That is a fair point", "next": "q3"},
+          { "number" : 0, "text": "That is a fair point.", "next": "q3"},
           { "number" : 1, "text": "No. People are unreliable and unhelpful to the pursuit of knowledge.",  "next": "q4"}
         ]
       },

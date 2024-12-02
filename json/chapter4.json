@@ -1,53 +1,97 @@
 {
-    "-comment": "Green Knight",
-    "questions": [
-        
-            {
-              "id": "q1",
-              "question": "As you wander deeper into the forest, the air grows thick with mystery. Emerging from the shadows is the Green Knight, his towering form both imposing and otherworldly. He surveys you with a knowing smile. 'I sense your honor,' he says. 'Will you take a challenge? Strike me as hard as you can, and in a year, I shall return the blow.'",
-              "choices": [
-                { "number": 0, "text": "Accept the challenge.", "next": "q2" },
-                { "number": 1, "text": "Refuse the challenge.", "next": "q3" }
-              ]
-            },
-            {
-              "id": "q2",
-              "question": "The Green Knight grins broadly. 'Very well. Let us begin.' You take your strike, and with a single blow, his head falls to the ground. Yet, to your horror, he retrieves it, placing it back upon his shoulders. 'One year from today,' he says, 'at the Green Chapel.' He disappears into the forest, leaving you to prepare for what lies ahead.",
-              "choices": [
-                { "number": 0, "text": "Advance to the Green Chapel one year later. We all know how this ends. There is no need for specifics", "next": "q4" }
-              ]
-            },
-            {
-              "id": "q3",
-              "question": "The Green Knight’s expression darkens. 'Honor brought you here, but now you refuse it? A dishonorable choice indeed. A hypocrite does not deserve a story nor information gleaned from others' struggles.'",
-              "choices": [
-                {
-                  "number": 0, "text": "You spoke of honor; this choice is dishonor, and your story ends here.", "next": "finish"
-                }
-              ]
-            },
-            {
-              "id": "q4",
-              "question": "As we all know, at the Green Chapel, the Green Knight waits, axe in hand. 'You kept your word,' he says. 'Now kneel, so I may return the blow.' You steel yourself as the axe descends, but it merely grazes your neck, leaving you with a nick. During the short and impressive fight, the Green Knight steps back and asks, 'Have you kept your honor?'",
-              "choices": [
-                { "number": 0, "text": "Take accountability for your actions.", "next": "q5" },
-                { "number": 1, "text": "Deny any wrongdoing.", "next": "q6" }
-              ]
-            },
-            {
-              "id": "q5",
-              "question": "You lower your head. 'I sought to preserve my life, even at the cost of truth. I failed to meet your challenge with perfect honor.' The Green Knight nods approvingly. 'Humility and self-awareness are rare virtues. You may go, your life is yours.'",
-              "choices": [
-                { "number": 0, "text": "Leave the Green Chapel and continue your journey.", "next": "chapter6" }
-              ]
-            },
-            {
-              "id": "q6",
-              "question": "You straighten your back and claim, 'I did nothing wrong.' The Green Knight’s expression hardens. 'Then you have learned nothing.' With one swift motion, the axe falls, and your journey ends here.",
-              "choices": [
-                {"number" : 0 , "text" : "You are out of options." , "next" : "chapter6"}
-              ]
-            }
-        ]          
-    
-  }
+  "-comment": "Green Knight",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "As you wander deeper into the forest, the air grows thick with mystery. Emerging from the shadows is the Green Knight, his towering form both imposing and otherworldly. He surveys you with a knowing smile. 'I sense your honor,' he says. 'Will you take a challenge? Strike me as hard as you can, and in a year, I shall return the blow.'",
+      "choices": [
+        { "number": 0, "text": "Accept the challenge.", "next": "q2" },
+        { "number": 1, "text": "Refuse the challenge.", "next": "q3" }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "The Green Knight grins broadly. 'Very well. Let us begin.' You take your strike, and with a single blow, his head falls to the ground. Yet, to your horror, he retrieves it, placing it back upon his shoulders. 'One year from today,' he says, 'at the Green Chapel.' He disappears into the forest, leaving you to prepare for what lies ahead.",
+      "choices": [
+        { "number": 0, "text": "Advance to the Green Chapel one year later.", "next": "q4" }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "The Green Knight’s expression darkens. 'Honor brought you here, but now you refuse it? A dishonorable choice indeed. A hypocrite does not deserve a story nor information gleaned from others' struggles.'",
+      "choices": [
+        {
+          "number": 0, "text": "You spoke of honor; this choice is dishonor, and your story ends here.","next": "finish"
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": "At the Green Chapel, the Green Knight waits, axe in hand. 'You kept your word,' he says. 'Now kneel, so I may return the blow.' You steel yourself as the axe descends, but it merely grazes your neck due to your flinch, leaving you with a nick. Raising his axe again, preparing for the last, real blow, he says, 'I sense you think you know more about this situation than you do. You come with assumptions, do you not? You think you know what I will do and how to leave unscathed. You do not. This is a test of honor, not memory. So let me ask again: would you kneel now, ready to receive my blow, knowing that the cost will be your life?'",
+      "choices": [
+        { "number": 0, "text": "Kneel, accepting the blow.", "next": "q5" },
+        { "number": 1, "text": "Refuse the blow and offer an alternative.", "next": "q6" }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": "The Green Knight steps forward, raising his axe. 'Oftentimes, knowledge gets in the way of honor. I sense from you a resoluteness, not for honor but for survival—survival you are too ashamed to admit you value. If you do not value such survival, you shall not keep it.' The axe falls swiftly, and your journey ends here.",
+      "choices": [
+        { "number": 0, "text": "Your story ends.", "next": "finish" }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": "The Green Knight lowers his axe, nodding. 'I cannot fault you for a desire to live—it is most natural. But how will you honor your deal?'",
+      "choices": [
+        { "number": 0, "text": "Claim you already fulfilled it with the nick.", "next": "q7" },
+        { "number": 1, "text": "Admit you can only live in the Green Knight's debt.", "next": "q8" },
+        { "number": 2, "text": "Seek to fulfill the deal by exploring the nature of honor.", "next": "q9" }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": "You say, 'I have fulfilled it with the nick.' The Green Knight’s expression hardens. 'Dishonorably played. This was never about the nick but about your intentions. You have shown no honor.' The axe falls, and your journey ends here.",
+      "choices": [
+        { "number": 0, "text": "Your story ends.", "next": "finish" }
+      ]
+    },
+    {
+      "id": "q8",
+      "question": "You lower your head. 'I can only live in your debt, for I cannot complete the challenge.' The Green Knight nods solemnly. 'A fair acknowledgment. But remember: debts have a way of following you. Go, and carry this burden.'",
+      "choices": [
+        { "number": 0, "text": "Leave the Green Chapel and continue your journey.", "next": "chapter6" }
+      ]
+    },
+    {
+      "id": "q9",
+      "question": "The Green Knight tilts his head. 'You believe yourself honorable. But honor is not proclaimed—it is proven, often in silence. Tell me, then: what is the root of honor? Is it truth, humility, or the courage to act, even when the cost is dear?'",
+      "choices": [
+        { "number": 0, "text": "Truth.", "next": "q10" },
+        { "number": 1, "text": "Humility.", "next": "q11" },
+        { "number": 2, "text": "Courage.", "next": "q12" }
+      ]
+    },
+    {
+      "id": "q10",
+      "question": "You answer, 'Honor is rooted in truth. Without it, all deeds are hollow. It is better to fail honestly than to succeed dishonestly.' The Green Knight nods slowly. 'A fair answer. But truth, I think, is not the root—it is the fruit of deeper virtues. Still, you may live, for you have spoken truly today.'",
+      "choices": [
+        { "number": 0, "text": "Leave the Green Chapel and continue your journey.", "next": "chapter6" }
+      ]
+    },
+    {
+      "id": "q11",
+      "question": "You answer, 'Honor is born of humility. It is the acknowledgment that we are imperfect, but we must strive to do what is right despite that.' The Green Knight smiles faintly. 'A rare answer, and a wise one. Humility is the bedrock of many virtues. You have earned my respect, and your life is yours.'",
+      "choices": [
+        { "number": 0, "text": "Leave the Green Chapel and continue your journey.", "next": "chapter6" }
+      ]
+    },
+    {
+      "id": "q12",
+      "question": "You answer, 'Honor is the courage to act, knowing that doing what is right may come at great personal cost.' The Green Knight tilts his head, considering. 'Bold words. And yet, I sense in them a shadow of self-interest—a longing for valor, not for virtue. Still, you show spirit. Live, and remember this moment when courage alone is not enough.'",
+      "choices": [
+        { "number": 0, "text": "Leave the Green Chapel and continue your journey.", "next": "chapter6" }
+      ]
+    }
+  ]
+}

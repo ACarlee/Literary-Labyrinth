@@ -20,9 +20,9 @@
       "id": "q3",
       "question": "You decide to leave, but Utopia doesn’t make it easy. What's your plan?",
       "choices": [
-        { "number": 0, "text": "Escape now", "next": "q5" },
+        { "number": 0, "text": "Escape now.", "next": "q5" },
         { "number": 1, "text": "Lie low, gathering time to plan your escape.", "next": "q6" },
-        { "number": 2, "text": "Gather a resistance", "next": "q4" }
+        { "number": 2, "text": "Gather a resistance.", "next": "q4" }
       ]
     },
     {

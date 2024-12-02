@@ -62,7 +62,7 @@
       "id": "q8",
       "question": "Ariel’s ethereal voice rises in determination, and together, you confront Prospero. The air thickens with tension as the storm you summon churns above, its fury echoing Ariel’s long-buried rage. Prospero’s magic meets yours in a clash of wills, but Ariel’s tempest overwhelms him. As his staff shatters and he falls, the island itself seems to exhale. Now, with Prospero gone, the island’s future lies in your hands. What kind of ruler will you be?",
       "choices": [
-        { "number": 0, "text": "Decide the type of ruler to become. There are too many options to follow; you must decide for yourself.", "next": "finish" }
+        { "number": 0, "text": "Decide the type of ruler to become. There are too many paths to follow now; you must decide for yourself.", "next": "finish" }
       ]
     },
     {

@@ -40,7 +40,7 @@
         "choices": [
           { "number": 0, "text": "Exaggerate your story for money and fame.", "next": "q7" },
           { "number": 1, "text": "Express curiosity about the horses and consider returning to them.", "next": "q8" },
-          { "number": 2, "text": "Tell the plain truth.", "next": "q9" }
+          { "number": 2, "text": "Tell the whole, plain truth.", "next": "q9" }
         ]
       },
       {

@@ -5,7 +5,7 @@
         "id": "q1",
         "question": "Wandering endlessly, the forest gives way to something extraordinary. The air grows sweeter, the ground softer, and the world around you becomes breathtakingly perfect. There are no flaws here, no shadows—only light and beauty. In the distance, you see two figures: a man and a woman. Their movements are graceful, their joy palpable. Adam and Eve, you realize. This must be Paradise. You are struck with a strange awareness: you are an observer, not a participant, in this lost perfection. As you watch, you overhear Eve persuading Adam to separate for a time. She succeeds, and as Adam departs, you follow Eve through her day as you would in the text. But then—rustling. She turns and sees you. Her smile radiates innocence and joy, and she approaches, her voice warm and curious. 'You are not from here,' she says. 'Who are you?'",
         "choices": [
-          { "number": 0, "text": "'You're Eve. It doesn't matter who I am.'", "next": "q2" },
+          { "number": 0, "text": "'You are Eve. It doesn't matter who I am.'", "next": "q2" },
           { "number": 1, "text": "'I'm someone extremely happy to be here. I am from a time far, far away.'", "next": "q3" }
         ]
       },

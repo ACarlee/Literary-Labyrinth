@@ -13,7 +13,7 @@
         "id": "q2",
         "question": "You approach Faustus, who seems lost in thought, his hands trembling over a book of forbidden knowledge. 'Who are you?' he asks. 'Another tormentor? Or someone foolish enough to think you can help?' Mephistopheles interjects with a chuckle, 'He is beyond saving. You will see.' How do you respond?",
         "choices": [
-          { "number": 0, "text": "'I'm here to help you. You aren't beyond saving.'", "next": "q4" },
+          { "number": 0, "text": "'I am here to help you. You aren't beyond saving.'", "next": "q4" },
           { "number": 1, "text": "'I am no savior, but I can show you another path.'", "next": "q4" }
         ]
       },

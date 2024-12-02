@@ -50,7 +50,7 @@
             "id": "q7",
             "question": "The walk to the castle is somber, the forest growing darker as the towering walls of Herod’s home loom ahead. Mariam speaks little, her mind clearly elsewhere. When you arrive, the air is tense with unspoken words, and Herod himself greets you with a wary gaze. Yet, it doesn’t take long for accusations to fly. Herod, consumed by paranoia, accuses Mariam of plotting his murder. The room erupts in chaos as all eyes turn to her. Among all of the voices shouting out, Mariam's is absent. You know that should she not speak, she will killed for something you know she did not do (assuming you did the reading in class).",
             "choices": [
-              { "number": 0, "text": "Criticize Mariam: 'Fight for your life! Speak, and defend yourself!'", "next": "q8" },
+              { "number": 0, "text": "Criticize Mariam- 'Fight for your life! Speak, and defend yourself!'", "next": "q8" },
               { "number": 1, "text": "Remain silent, as Mariam does.", "next": "q9" }
             ]
           },

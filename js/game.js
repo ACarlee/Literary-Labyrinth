@@ -49,6 +49,12 @@ const gameFlow = {//this is the number of questions to skip until the one that p
     [0],
     [1,2],
     [0],
+    [1,2,3],
+    [0],
+    [0],
+    [1,2,3],
+    [0],
+    [0],
     [0]
   ],
   "chapter5":[
