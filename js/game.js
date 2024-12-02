@@ -201,7 +201,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   }  
 
-  function adjustChapter(nextChapter){
+  function adjustChapter(nextChapter){//more cases will be added here in the future
     if (nextChapter === "chapter2" && player.traits["fearful"] >= 1) {
         return "chapter3"; // Redirect to chapter3 if "fearful" trait is 1 or more
       }

@@ -20,7 +20,7 @@ const MapManager = {
         return this.pathCoordinates;
     },
 
-    revealChapter(chapter) {
+    revealChapter(chapter) {//reveal the new landmark when you get to a new chapter
         const chapterIndex = this.pathCoordinates.findIndex(coord => coord.ch === chapter);
         if (chapterIndex !== -1) {
             this.pathCoordinates[chapterIndex].revealed = true;
