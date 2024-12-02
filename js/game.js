@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   async function loadChapter(chapterId) {
     try {
-      const response = await fetch(`.json/${chapterId}.json`);
+      const response = await fetch(`json/${chapterId}.json`);
       if (!response.ok) throw new Error(`Failed to load ${chapterId}`);
       return await response.json();
     } catch (error) {
