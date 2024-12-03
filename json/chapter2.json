@@ -1,9 +1,9 @@
 {
-    "-comment": "Lady of Bath",
+    "-comment": "Wife of Bath",
     "questions": [
       {
         "id": "q1",
-        "question": "As you wander through the forest, down the winding path, the rustle of the leaves catches your attention, and from a distance, you spot a woman seated upon a stone bench, her presence as bold as her attire. A laugh escapes her lips, rich and full, as if the very air around her is lighter for it. She eyes you with a curious, yet knowing, gaze as you draw near. “Well now, what have we here? A wanderer, lost in thought—or are you lost in something else, hm?” she teases, adjusting her bright, flowery hat and giving you a wink. “I suppose I could tell you all about my own travels, though none are as grand as I’d like to believe! But what of you? I do adore meeting new faces on the road, especially those with a tale or two to tell... or perhaps more than that, eh?” She leans forward, her voice dropping into a playful whisper, “Tell me, what exactly are you seeking on this journey of yours? Are you in search of riches, a lover’s kiss, or maybe a scandal to rival the greatest of the Canterbury tales?”",
+        "question": "As you wander through the forest, down the winding path, the rustle of the leaves catches your attention, and from a distance, you spot a woman seated upon a stone bench, her presence as bold as her attire. A laugh escapes her lips, rich and full, as if the very air around her is lighter for it. She eyes you with a curious, yet knowing, gaze as you draw near. “Well now, what have we here? A wanderer, lost in thought—or are you lost in something else, hm?” she teases, adjusting her bright, flowery hat and giving you a wink. “I suppose I could tell you all about my own travels, though none are as grand as I’d like to believe! But what of you? I do adore meeting new faces on the road, especially those with a tale or two to tell... or perhaps even more still, eh?” She leans forward, her voice dropping into a playful whisper, “Tell me, what exactly are you seeking on this journey of yours? Are you in search of riches, a lover’s kiss, or maybe a scandal to rival the greatest of the Canterbury tales?”",
         "choices": [
           { "number" : 0, "text": "I seek knowledge", "traits": { "ambition": 1 }, "next": "q2"},
           { "number" : 1, "text": "I seek power", "traits": { "ambition": 1, "pride" : 1 }, "next": "q5" },
@@ -13,7 +13,7 @@
       },
       {
         "id": "q2",
-        "question": "As you approach the Lady of Bath, she looks at you with a raised brow, her lips curving into a teasing smile. “Ah, knowledge, you say?” She chuckles softly. “What good is all that knowledge trapped in your head? You spend all your time buried in books, forgetting to live—to breathe, to speak to others. I get my knowledge from talking, from sharing a story or two. There’s enough to learn from the people around you, my dear. Why would you ever settle for a book? A book can’t tell you the joy of a fire crackling or the laughter of strangers, or the weight of a hand on your shoulder in a moment of silence.” She looks you up and down, her eyes glinting with mischief. “Go ahead, think about it. You’ll find far more wisdom in a simple conversation than in the thickest volumes of ink and paper. Don’t be so quick to dismiss the world around you. You might learn something that’ll make all those facts feel awfully small in comparison.”",
+        "question": "As you approach the Wife of Bath, she looks at you with a raised brow, her lips curving into a teasing smile. “Ah, knowledge, you say?” She chuckles softly. “What good is all that knowledge trapped in your head? You spend all your time buried in books, forgetting to live—to breathe, to speak to others. I get my knowledge from talking, from sharing a story or two. There’s enough to learn from the people around you, my dear. Why would you ever settle for a book? A book can’t tell you the joy of a fire crackling or the laughter of strangers, or the weight of a hand on your shoulder in a moment of silence.” She looks you up and down, her eyes glinting with mischief. “Go ahead, think about it. You’ll find far more wisdom in a simple conversation than in the thickest volumes of ink and paper. Don’t be so quick to dismiss the world around you. You might learn something that’ll make all those facts feel awfully wrong in comparison.”",
         "choices": [
           { "number" : 0, "text": "That is a fair point.", "next": "q3"},
           { "number" : 1, "text": "No. People are unreliable and unhelpful to the pursuit of knowledge.",  "next": "q4"}
@@ -29,14 +29,14 @@
       },
       {
         "id": "q4",
-        "question": "She sneers, eyes narrowing with mild disdain. “Is that so? Unreliable, are we now? Well, books and cold facts may seem steady, but the world is alive, my dear, and people—especially people—are where the real wisdom lies. You’ll find yourself starved for meaning if you rely only on the sterile comfort of pages. But go ahead, may you find everything you seek in the pages of your book. Best wishes for that! I will continue living my life, living it as best I can regardless of the instructions of some damm book.” With that, she turns away, leaving you alone in the forest.",
+        "question": "She sneers, eyes narrowing with mild disdain. “Is that so? Unreliable, are we now? Well, books and cold facts may seem steady, but the world is alive, my dear, and people—especially people—are where the real wisdom lies. You’ll find yourself starved for meaning if you rely only on the sterile comfort of pages. But go ahead, may you find everything you seek in the pages of your book. Best wishes for that! I will continue living my life, living it as best I can regardless of the instructions of some dam book.” With that, she turns away, leaving you alone in the forest.",
         "choices": [
           {"number" : 0, "text": "Take your leave and continue your journey alone. She would be no help anyway.", "next": "chapter5" }
         ]
       },
       {
         "id": "q5",
-        "question": "The Lady of Bath gazes at you, her eyes flickering with amusement, as though she’s weighing your words carefully. “Power?” She laughs softly, almost to herself. “Oh, child, I could tell you many a tale of what power does. The power that women have over men… Now that’s a story for the ages. But you—what kind of power excites you? Tell me. Do you seek the protection from others, or do you wish to dominate them?”",
+        "question": "The Wife of Bath gazes at you, her eyes flickering with amusement, as though she’s weighing your words carefully. “Power?” She laughs softly, almost to herself. “Oh, child, I could tell you many a tale of what power does. The power that women have over men… Now that’s a story for the ages. But you—what kind of power excites you? Tell me. Do you seek the protection from others, or do you wish to dominate them?”",
         "choices": [
           { "number" : 0, "text": "I seek power for protection from others", "next": "q6"},
           { "number" : 1, "text": "I seek power for domination",  "next": "q8"}
@@ -52,7 +52,7 @@
       },
       {
         "id": "q7",
-        "question": "Looking quickly around her, she smiles ruefully, “Vulnerability doesn’t mean weakness, my dear. It means being open—to love, to loss, to everything. Power that protects—sometimes that’s an illusion. Protection is a wall, and a wall can be brought down. But vulnerability? It’s the real strength. When you expose yourself, you show others your worth, not just demand it. But, now is not the time or place. I can promise you nothing is worth your time following me. Explore the world, find your love. It changes lives.” She begins to walk away, “Not always for the best, but such is life”",
+        "question": "Looking quickly around her, she smiles ruefully, “Vulnerability doesn’t mean weakness, my dear. It means being open—to love, to loss, to everything. Power that protects—sometimes that’s an illusion. Protection is a wall, and a wall can be brought down. But vulnerability? It’s the real strength. When you expose yourself, you show others your worth, not just demand it. But, now is not the time or place. I can promise you nothing is worth your time following me. Explore the world, find your love. It changes lives.” She begins to walk away, “Not always for the best, but such is life.”",
         "choices": [
           { "number" : 0, "text": "Call out for her", "next": "q13"},
           { "number" : 1, "text": "Move on and continue your journey alone",  "next": "chapter5"}
@@ -60,7 +60,7 @@
       },
       {
         "id": "q8",
-        "question": "She eyes you critically, letting out a short laugh, almost derisive. “Dominance, huh?” Her tone softens only slightly. “You’re a normal one, aren’t you? Most people seek power to dominate. It’s the way of the world. You’ll get what you want—until you can’t. And then you’ll be left with your throne of dust and regret. Good luck, my dear, ensnaring all the beasts of the forest. And don’t come crying to me when they bite back.” With that, she gives a mock salute and strides away, leaving you to consider her words.”",
+        "question": "She eyes you critically, letting out a short laugh, almost derisive. “Dominance, huh?” Her tone softens only slightly. “You’re a normal one, aren’t you? Most people seek power to dominate. It’s the way of the world. You’ll get what you want—until you can’t. And then you’ll be left with your throne of dust and regret. Good luck, my dear, ensnaring all the beasts of the forest. And don’t come crying to me when they bite back.” With that, she gives a mock salute and strides away, leaving you to consider her words.",
         "choices": [
           { "number" : 0, "text": "Call out for her", "next": "q13" },
           { "number" : 1, "text": "Move on and continue your journey alone",  "next": "chapter5"}
@@ -68,10 +68,10 @@
       },
       {
         "id": "q9",
-        "question": "The Lady of Bath laughs wistfully, her expression becoming a mixture of fondness and sorrow. “Love, huh?” She lets out a deep sigh, eyes far away, as if lost in the memories of her own long past. “Love is a fickle beast, my dear. One moment, it’s full of life, overflowing, and the next... empty. It leaves you feeling alive—and dead—all at once. You’ll be alive with passion, only to find yourself hollow when the fire burns out. But oh, isn’t it beautiful, the fire? Even when it burns you? Especially then.” She looks back at you, her eyes sharp now, as if to gauge your reaction. “You want love? Let me warn you—many seek love, but they don’t seek the right love. What love are you truly after? Do you want acceptance, safety? Those are the easy kinds of love. But love is the most dangerous thing you can do. To love another—that’s the hardest thing in the world. It’s not safe. It never is.”",
+        "question": "The Wife of Bath laughs wistfully, her expression becoming a mixture of fondness and sorrow. “Love, huh?” She lets out a deep sigh, eyes far away, as if lost in the memories of her own long past. “Love is a fickle beast, my dear. One moment, it’s full of life, overflowing, and the next... empty. It leaves you feeling alive—and dead—all at once. You’ll be alive with passion, only to find yourself hollow when the fire burns out. But oh, isn’t it beautiful, the fire? Even when it burns you? Especially then.” She looks back at you, her eyes sharp now, as if to gauge your reaction. “You want love? Let me warn you—many seek love, but they don’t seek the right love. What love are you truly after? Do you want acceptance, safety? Those are the easy kinds of love. But love is the most dangerous thing you can do. To love another—that’s the hardest thing in the world. It’s not safe. It never is.”",
         "choices": [
-          { "number" : 0, "text": "I seek to love another", "next": "q10"},
-          { "number" : 1, "text": "I seek to fullfill obligations and gain acceptance",  "next": "q11" }
+          { "number" : 0, "text": "I seek love for the sake of love.", "next": "q10"},
+          { "number" : 1, "text": "I seek love to fulfill obligations and gain acceptance",  "next": "q11" }
         ]
       }, 
       {
@@ -91,7 +91,7 @@
       }, 
       {
         "id": "q12",
-        "question": "The Lady of Bath immediately bursts into laughter, her tone mocking. “Honor? Honor? What’s that? Some empty notion you cling to in the dark, hoping someone will see it and say, ‘Yes, you’re worthy!’ It’s nothing but approval, my dear. That’s all it is. A reputation built on lies and stories—I can build you a reputation with a couple of well-spun tales. What’s the point of honor if you’re going to die for it? Are you going to live your life for what others think of you? Are you that small?” She leans in closer, her eyes flashing with fire. “Go on then—find your honor in the forest. Go ahead, slay your beasts. Do what you must. But you’ll never find anything real in that. Honor is as hollow as the words you use to describe it.” She steps back with a grin, almost daring you. “Go ahead—find honor in the natural world. Tell me how you do. I’m dying to see it.” Without another word, she turns back and walks away. That conversation obvously did not interest her enough to stay.",
+        "question": "The Wife of Bath immediately bursts into laughter, her tone mocking. “Honor? Honor? What’s that? Some empty notion you cling to in the dark, hoping someone will see it and say, ‘Yes, you’re worthy!’ It’s nothing but approval, my dear. That’s all it is. A reputation built on lies and stories—I can build you a reputation with a couple of well-spun tales. What’s the point of honor if you’re going to die for it? Are you going to live your life for what others think of you? Are you that small?” She leans in closer, her eyes flashing with fire. “Go on then—find your honor in the forest. Go ahead, slay your beasts. Do what you must. But you’ll never find anything real in that. Honor is as hollow as the words you use to describe it.” She steps back with a grin, almost daring you. “Go ahead—find honor in the natural world. Tell me how you do. I’m dying to see it.” Without another word, she turns back and walks away. That conversation obviously did not interest her enough to stay.",
         "choices": [
           { "number" : 0, "text": "Call out to her", "next": "q16"},
           {"number" : 1, "text": "Move on and continue your journey alone", "next": "chapter4"}
@@ -99,7 +99,7 @@
       },
       {
         "id": "q13",
-        "question": "Ignoring your calls, she moves own. Alone in the woods, your only choice is to keep moving forward or turn back where you came from, away from the unknown and back to saftey.",
+        "question": "Ignoring your calls, she moves on. Alone in the woods, your only choice is to keep moving forward or turn back where you came from, away from the unknown and back to safety.",
         "choices": [
           { "number" : 0, "text": "Retreat back.", "next": "finish"},
           {"number" : 1, "text": "Move on and continue your journey alone", "next": "chapter5"}
@@ -107,7 +107,7 @@
       },
       {
         "id": "q14",
-        "question": "Ignoring your calls, she moves on. Alone in the woods, your only choice is to keep moving forward or turn back where you came from, away from the unknown and back to saftey.",
+        "question": "With a piercing glare, she turns her back on you and strides away, her silence cutting deeper than the words and stories you will never hear from her. Alone in the woods, you face a choice: press forward into the unknown, or retreat to the safety of the familiar, leaving the mystery behind.",
         "choices": [
           { "number" : 0, "text": "Retreat back.", "next": "finish"},
           {"number" : 1, "text": "Move on and continue your journey alone", "next": "chapter5"}
@@ -115,14 +115,14 @@
       },
       {
         "id": "q15",
-        "question": "The Lady of Bath turns, her skirts sweeping the forest floor as she strides forward with a confidence that makes it seem she knows every root and stone beneath her feet. You follow close behind, her voice weaving through the trees like the melody of a song half-remembered. She speaks of long-forgotten kingdoms and the wisdom of travelers who traded gold for stories. But as you walk, the trees seem to grow taller and closer together, their canopies knitting tighter above. The sunlight dims, filtering through in fractured rays that do little to illuminate the path. Her voice grows softer, blending with the rustle of leaves and the distant chirp of unseen birds. You quicken your pace to keep up, but the forest thickens, the undergrowth snagging at your legs. You push forward, heart pounding, certain she must be just out of sight. But the path becomes less clear, the ground uneven and littered with roots that seem to twist and writhe underfoot. Finally, you stop, the silence pressing in like a held breath. She’s gone. You stand there, alone, surrounded by the denseness of the wild, unsure if you have lost her or if she led you here intentionally. Either way, you are left with nothing but the lingering warmth of her stories and the echo of her laughter as the forest closes in.",
+        "question": "The Wife of Bath turns, her skirts sweeping the forest floor as she strides forward with a confidence that makes it seem that she knows every root and stone beneath her feet. You follow close behind, her voice weaving through the trees like the melody of a song half-remembered. She speaks of long-forgotten kingdoms and the wisdom of travelers who traded gold for stories. But as you walk, the trees seem to grow taller and closer together, their canopies knitting tighter above. The sunlight dims, filtering through in fractured rays that do little to illuminate the path. Her voice grows softer, blending with the rustle of leaves and the distant chirp of unseen birds. You quicken your pace to keep up, but the forest thickens, the undergrowth snagging at your legs. You push forward, heart pounding, certain she must be just out of sight. But the path becomes less clear, the ground uneven and littered with roots that seem to twist and writhe underfoot. Finally, you stop, the silence pressing in like a held breath. She’s gone. You stand there, alone, surrounded by the denseness of the wild, unsure if you have lost her or if she led you here intentionally. Either way, you are left with nothing but the lingering warmth of her stories and the echo of her laughter as the forest closes in.",
         "choices": [
           {"number" : 0, "text": "Move on and continue your journey alone", "next": "chapter5"}
         ]
       },
       {
         "id": "q16",
-        "question": "Ignoring your calls, she moves own. Alone in the woods, your only choice is to keep moving forward or turn back where you came from, away from the unknown and back to saftey.",
+        "question": "Ignoring your calls, she moves own. Alone in the woods, your only choice is to keep moving forward or turn back where you came from, away from the unknown and back to safety.",
         "choices": [
           { "number" : 0, "text": "Retreat back.", "next": "finish"},
           {"number" : 1, "text": "Move on and continue your journey alone", "next": "chapter4"}

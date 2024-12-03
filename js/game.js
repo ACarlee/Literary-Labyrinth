@@ -26,7 +26,7 @@ const gameFlow = {//this is the number of questions to skip until the one that p
     [0,0],
     [0,0],
     [0],
-    [0]
+    [0,0]
   ],
   "chapter3":[
     [1,2],
@@ -187,7 +187,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       const questionData = chapter.questions[currentQuestionIndex];
       displayQuestion(questionData, () => {                        
       let step = gameFlow[player.currentChapter][currentQuestionIndex][player.lastchoice]; 
-      currentQuestionIndex = currentQuestionIndex + step;  // Default behavior
+      currentQuestionIndex = currentQuestionIndex + step;
       displayNextQuestion();  // Show the next question
   });
 

@@ -1,5 +1,5 @@
 {
-    "-comment": "Queen Mariam",
+    "-comment": "Mariam",
     "questions": [
         {
             "id": "q1",
@@ -80,7 +80,7 @@
           },
           {
             "id": "q11",
-            "question": "Your anger spills out in a torrent of accusations. Salome’s eyes narrow, her lips curling into a venomous smile. 'You are bold, but boldness is not wisdom.' However, your passionate, angry words resonate with the king, who is struck by the strength of your conviction. 'You speak as a man with courage,' Herod says, turning his anger towards Salame. 'She has schemed and brought shame upon this nation!' Since the king could believe a man moreso than any woman, Salame is sentenced to death, beheaded before the court. The king warns you to leave the castle and never speak of this incident again for no nation will want to remember such an event.",
+            "question": "Your anger spills out in a torrent of accusations. Salome’s eyes narrow, her lips curling into a venomous smile. 'You are bold, but boldness is not wisdom.' However, your passionate, angry words resonate with the king, who is struck by the strength of your conviction. 'You speak as a man with courage,' Herod says, turning his anger towards Salame. 'She has schemed and brought shame upon this nation!' Since the king could believe a man more so than any woman, Salame is sentenced to death, beheaded before the court. The king warns you to leave the castle and never speak of this incident again for no nation will want to remember such an event.",
             "choices": [
                 { "number": 0, "text": "Escape into the woods", "traits": { "killer": 1 }, "next": "chapter4" }
               ]
@@ -96,7 +96,7 @@
             "id": "q13",
             "question": "You turn away, the weight of Mariam’s tragedy and Salome’s schemes heavy on your shoulders. The castle walls seem to close in as you walk, but you know this: you will carry this story with you, a reminder of how fate cannot always be swayed.",
             "choices": [
-                { "number": 0, "text": "Leave the caslte and never look back.", "next": "chapter5" }
+                { "number": 0, "text": "Leave the castle and never look back.", "next": "chapter5" }
               ]
           }
           

@@ -20,15 +20,9 @@
         "id": "q3",
         "question": "'A time far away?' Eve's eyes widen with wonder. She steps closer, her expression open and curious. 'What is it like? Tell me everything.'",
         "choices": [
-          {
-            "number": 0, "text": "Tell Eve everything about the world today- the good, the bad, and the dirty", "next": "q4"
-          },
-          {
-            "number": 1, "text": "Tell Eve only the good parts of the world today.", "next": "q5"
-          },
-          {
-            "number": 2, "text": "Remain vague and change the subject.", "next": "q6"
-          }
+          { "number": 0, "text": "Tell Eve everything about the world today- the good, the bad, and the dirty", "next": "q4"},
+          {"number": 1, "text": "Tell Eve only the good parts of the world today.", "next": "q5"},
+          {"number": 2, "text": "Remain vague and change the subject.", "next": "q6"}
         ]
       },
       {
@@ -54,7 +48,7 @@
       },
       {
         "id": "q7",
-        "question": "You walk with Eve, her curiosity insatiable and her innocence profound. She listens intently, her eyes shining with wonder, even as your words falter under the weight of her purity. Suddenly, you come upon a tree unlike any other: the Tree of Knowledge of Good and Evil. You didn't think it would look like this. Eve pauses, her gaze lingering on the forbidden fruit. 'I've thought about taking some,' she admits hesitantly. 'God said no, but... perhaps it's time. For Adam, for me, and for you, our guest.' She takes a step closer, her resolve growing. You see a serpent coil subtly around a branch, its movements barely perceptible but insidious. Eve's hand hovers near the fruit, her mind made up. Do you intervene?",
+        "question": "You walk with Eve, her curiosity insatiable and her innocence profound. She listens intently, her eyes shining with wonder, even as your words falter under the weight of her purity. Suddenly, you come upon a tree unlike any other: the Tree of Knowledge. You didn't think it would look like this. Eve pauses, her gaze lingering on the forbidden fruit. 'I've thought about taking some,' she admits hesitantly. 'God said no, but... perhaps it's time. For Adam, for me, and for you, our guest.' She takes a step closer, her resolve growing. You see a serpent coil subtly around a branch, its movements barely perceptible but insidious. Eve's hand hovers near the fruit, her mind made up. Do you intervene?",
         "choices": [
           { "number": 0, "text": "Stop Eve and try to prevent the Fall.", "traits": { "intervening": 1 }, "next": "q8" },
           { "number": 1, "text": "Let Eve take the fruit, knowing the Fall is necessary.", "traits": { "accepting": 1 }, "next": "q9" }

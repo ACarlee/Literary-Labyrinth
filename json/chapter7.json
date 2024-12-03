@@ -19,7 +19,7 @@
       },
       {
         "id": "q3",
-        "question": "You refuse the devil's challenge. He laughs. 'Cowardice suits you. Perhaps you never believed in salvation after all.' The game ends here, with your soul intact (we hope) but your purpose unfulfilled.",
+        "question": "You refuse the devil's challenge. He laughs. 'Cowardice suits you. Perhaps you never believed in salvation after all.' The game ends here, with your soul intact (perhaps) but your purpose definitively unfulfilled.",
         "choices": [
             {"number" : 0, "text": "The Devil Wins", "next" : "finish"}
         ]
@@ -44,7 +44,7 @@
         "id": "q6",
         "question": "You continue urging Faustus to renounce his pact. As the clock nears midnight, Mephistopheles hisses, 'Enough. The deal is sealed.' The devil returns, his voice thunderous. 'Decide now: admit he is damned and walk away, or stay and burn alongside him. Admit that humans are damned- damned to fall and damned now! And you, you have no power over it!' What do you do?",
         "choices": [
-          { "number": 0, "text": "Take the opportunity. Turn your back on Faustus, leaving him to his own damination.", "next": "q8" },
+          { "number": 0, "text": "Take the opportunity. Turn your back on Faustus, leaving him to his own damnation.", "next": "q8" },
           { "number": 1, "text": "Stay and refuse to abandon Faustus for he can still be saved.", "next": "q9" }
         ]
       },

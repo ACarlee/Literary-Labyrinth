@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
 const MapManager = {
     pathCoordinates: [
         { x: 200, y: 650, ch: "chapter1", label: "Start", image: "images/x-marker.png", revealed: true },
-        { x: 360, y: 550, ch: "chapter2", label: "Lady of Bath", image: "images/handmirror.png", revealed: false },
-        { x: 90, y: 530, ch: "chapter3", label: "Queen Mariam", image: "images/crown.png", revealed: false },
+        { x: 360, y: 550, ch: "chapter2", label: "Wife of Bath", image: "images/handmirror.png", revealed: false },
+        { x: 90, y: 530, ch: "chapter3", label: "Mariam", image: "images/crown.png", revealed: false },
         { x: 320, y: 400, ch: "chapter4", label: "Green Knight", image: "images/green-knight.png", revealed: false },
-        { x: 75, y: 350, ch: "chapter5", label: "Houyhnhnmas", image: "images/horse.png", revealed: false },
+        { x: 75, y: 350, ch: "chapter5", label: "Houyhnhnms", image: "images/horse.png", revealed: false },
         { x: 240, y: 260, ch: "chapter6", label: "Eve", image: "images/apple.png", revealed: false },
         { x: 400, y: 150, ch: "chapter7", label: "Fautus", image: "images/book-flame.png", revealed: false },
         { x: 50, y: 200, ch: "chapter8", label: "A Utopia", image: "images/floating-island.png", revealed: false },

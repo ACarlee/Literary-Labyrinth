@@ -19,9 +19,9 @@
     },
     {
       "id": "q3",
-      "question": "That is quite an answer. Do you hate womeakind?",
+      "question": "That is quite an answer. Do you hate womankind?",
       "choices": [
-        { "number" : 0, "text": "Yes, Womankind are awful", "next": "q4" },
+        { "number" : 0, "text": "Yes, womankind are awful", "next": "q4" },
         { "number" : 1, "text": "No", "id": "no-button", "next": "q4"}
       ]
     },
@@ -29,7 +29,7 @@
       "id": "q4",
       "question": "Ah, well, at least you shall have something in common with the souls you meet along the way. Still, you ought to speak with her and gauge what use she may bring. But beware—conversations are perilous things. They twist and turn, often becoming far more than you bargained for. So, traveler, I ask: are you certain you wish to proceed?",
       "choices": [
-        { "number" : 0, "text": "Yes, I shall apprach.", "next": "chapter2"}, 
+        { "number" : 0, "text": "Yes, I shall approach.", "next": "chapter2"}, 
         { "number" : 1, "text": "No, I shall turn back.", "next": "finish"}
       ]
     }

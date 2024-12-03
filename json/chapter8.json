@@ -27,21 +27,21 @@
     },
     {
       "id": "q4",
-      "question": "The very first person you talk to report you. Unfortunate, but now, you are on Utopia's watchlist and are never ever leaving.",
+      "question": "The very first person you talk to reports you. Unfortunate, but now, you are on Utopia's watchlist and are never ever leaving.",
       "choices": [
-        { "number": 0, "text": "You are out of options", "next": "finish" }
+        { "number": 0, "text": "You are out of options.", "next": "finish" }
       ]
     },
     {
       "id": "q5",
       "question": "Rushing out to the countryside, you are quickly captured by Utopian officials and put to death for trying to escape.",
       "choices": [
-        { "number": 0, "text": "You are out of options", "next": "finish" }
+        { "number": 0, "text": "You are out of options.", "next": "finish" }
       ]
     },
     {
       "id": "q6",
-      "question": "You lie low. You integrate. You slowly become used to your new life and find comfort in your routine. What is a couple weeks or monthes? You have friends here now and a purpose in society. Do you still plan your escape?",
+      "question": "You lie low. You integrate. You slowly become used to your new life and find comfort in your routine. What is a couple weeks or months? You have friends here now and a purpose in society. Do you still plan your escape?",
       "choices": [
         { "number": 0, "text": "Yes. I still want to get out.", "next": "q7" },
         { "number": 1, "text": "No. I can stay here.", "next": "q2" }
@@ -49,22 +49,22 @@
     },
     {
       "id": "q7",
-      "question": "You resolute yourself to your goal. Trying to do this the offical way, you walk out, seeking to ask Utopian officals to travel and use that as a means of escape. However, when walking, you see a penny face up. That's good luck. Do you pick it up?",
+      "question": "You resolute yourself to your goal. Trying to do this the official way, you walk out, seeking to ask Utopian officials to travel and use that as a means of escape. However, when walking, you see a penny face up. That's good luck. Do you pick it up?",
       "choices": [
-        { "number": 0, "text": "Yes. Why not?", "next": "q8" },
+        { "number": 0, "text": "Yes. You need the luck.", "next": "q8" },
         { "number": 1, "text": "No. Leave it.", "next": "q9" }
       ]
     },
     {
       "id": "q8",
-      "question": "Immediately, the Utopian government that sees all grabs you. Your own penny! You clearly haven't given up ownership. You have been on thin ice, but now, for a lucky penny, you are put to death.",
+      "question": "Immediately, the Utopian government, who sees all, grabs you. Your own penny! You clearly haven't given up ownership of property. You have been on thin ice, but now, for a lucky penny, you are put to death.",
       "choices": [
-        { "number": 0, "text": "You are out of options", "next": "finish" }
+        { "number": 0, "text": "You are out of options.", "next": "finish" }
       ]
     },
     {
       "id": "q9",
-      "question": "Without picking up the penny, you reach Utopian officer, who you resolutely ask to be allowed to travel. He looks at you careful. Prepared to answer many questions about why you wanted to travel, with who, and to where, you were not prepared to be asked about a secret on of your only friends in Utopia made to you. Why is the officer interested in such a harmless secret? Should you share it or respect your friendship?",
+      "question": "Without picking up the penny, you approach a Utopian officer and resolutely request permission to travel. As he studies you carefully, you brace yourself for questions about your destination, companions, and reasons for leaving. However, you are unprepared for the officer's unexpected inquiry about a secret entrusted to you by your only friends in Utopia. Why would he be interested in such a seemingly harmless secret? Should you reveal it, or honor your friendship and keep it safe?",
       "choices": [
         { "number": 0, "text": "Tell", "next": "q11" },
         { "number": 1, "text": "Keep it a secret", "next": "q10" }
@@ -74,14 +74,14 @@
       "id": "q10",
       "question": "The officer, unimpressed with you, sniffles before saying that such attachment to people is individualistic for there is no reason to hold such unhealthy attachment. Therefore, your request has been denied and so will all future ones. Enjoy life in Utopia.",
       "choices": [
-        { "number": 0, "text": "You are out of options", "next": "finish" }
+        { "number": 0, "text": "You are out of options.", "next": "finish" }
       ]
     },
     {
       "id": "q11",
       "question": "You pass and are allowed to travel, letting you escape. But at what price? You reflect on the penny and the secret. Such small, silly details could've cost you your life. But, why couldn't you keep them? You notice how, when trying to fit in the perfect society, you become less human. You carry the weight of a missing penny and lost secret for the rest of your life- or at least, what you hope is a life.",
       "choices": [
-        { "number": 0, "text": "Escape Utopia", "next": "chapter10" }      ]
+        { "number": 0, "text": "Escape Utopia.", "next": "chapter10" }      ]
     }
   ]
 }

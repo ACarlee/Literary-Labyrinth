@@ -27,7 +27,7 @@
     },
     {
       "id": "q4",
-      "question": "At the Green Chapel, the Green Knight waits, axe in hand. 'You kept your word,' he says. 'Now kneel, so I may return the blow.' You steel yourself as the axe descends, but it merely grazes your neck due to your flinch, leaving you with a nick. Raising his axe again, preparing for the last, real blow, he says, 'I sense you think you know more about this situation than you do. You come with assumptions, do you not? You think you know what I will do and how to leave unscathed. You do not. This is a test of honor, not memory. So let me ask again: would you kneel now, ready to receive my blow, knowing that the cost will be your life?'",
+      "question": "At the Green Chapel, the Green Knight awaits, axe in hand. 'You kept your word,' he says. 'Now kneel, so I may return the blow.' You brace yourself as the axe descends, but you flinch, and it only grazes your neck, leaving a small nick. Raising his axe once more, he pauses and says, 'I sense you believe you understand more about this situation than you do. You come with assumptions, do you not? You think you know my intentions and how to escape unscathed. You are mistaken. This is a test of honor, not memory. So I ask you again: would you kneel now, prepared to receive my blow, knowing it will cost you your life?'",
       "choices": [
         { "number": 0, "text": "Kneel, accepting the blow.", "next": "q5" },
         { "number": 1, "text": "Refuse the blow and offer an alternative.", "next": "q6" }
@@ -35,7 +35,7 @@
     },
     {
       "id": "q5",
-      "question": "The Green Knight steps forward, raising his axe. 'Oftentimes, knowledge gets in the way of honor. I sense from you a resoluteness, not for honor but for survival—survival you are too ashamed to admit you value. If you do not value such survival, you shall not keep it.' The axe falls swiftly, and your journey ends here.",
+      "question": "The Green Knight steps forward, raising his axe. 'Oftentimes, knowledge gets in the way of honor. I sense from you a resoluteness, not for honor, but for survival—survival you are too ashamed to admit you value. If you do not value such survival, you shall not keep it.' The axe falls swiftly, and your journey ends here.",
       "choices": [
         { "number": 0, "text": "Your story ends.", "next": "finish" }
       ]
@@ -46,12 +46,12 @@
       "choices": [
         { "number": 0, "text": "Claim you already fulfilled it with the nick.", "next": "q7" },
         { "number": 1, "text": "Admit you can only live in the Green Knight's debt.", "next": "q8" },
-        { "number": 2, "text": "Seek to fulfill the deal by exploring the nature of honor.", "next": "q9" }
+        { "number": 2, "text": "Offer to fulfill the deal through alternative means.", "next": "q9" }
       ]
     },
     {
       "id": "q7",
-      "question": "You say, 'I have fulfilled it with the nick.' The Green Knight’s expression hardens. 'Dishonorably played. This was never about the nick but about your intentions. You have shown no honor.' The axe falls, and your journey ends here.",
+      "question": "The Green Knight’s expression hardens. 'Dishonorably played. This was never about the nick but about your intentions. You have shown no honor.' The axe falls, and your journey ends here.",
       "choices": [
         { "number": 0, "text": "Your story ends.", "next": "finish" }
       ]
