@@ -254,7 +254,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       button.textContent = choice.text;
   
       // Add a special behavior for the "No" button in q3 of chapter1
-if (player.currentChapter === "chapter1" && questionData.question === "That is quite an answer. Do you hate womeakind?" && choice.id === "no-button") {
+if (player.currentChapter === "chapter1" && questionData.question === "That is quite an answer. Do you hate womankind?" && choice.id === "no-button") {
   button.setAttribute("id", "no-button");
   
   // Set a fixed size for the "No" button
