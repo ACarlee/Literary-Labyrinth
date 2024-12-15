@@ -3,7 +3,7 @@
   "questions": [
     {
       "id": "q1",
-      "question": "The devil smirks, his crimson eyes gleaming with mischief. 'You gave up in the face of Faustus, so I’ll spare your soul—at least for now—but I’ll leave you stranded somewhere...interesting.' His laughter fades as the world darkens, and you awaken on a windswept shore. The air crackles with a strange energy, and soon you encounter a hunched figure—a man with skin weathered like bark and eyes burning with bitterness. Caliban snarls as he rants about Prospero, his master. 'That tyrant! That thief!' he spits, his voice raw with venom. He looks at you with suspicion. How do you respond?",
+      "question": "The devil smirks, his crimson eyes gleaming with mischief. 'You gave up in the face of Faustus, so I will spare your soul—at least for now—but I will leave you stranded somewhere...interesting.' His laughter fades as the world darkens, and you awaken on a windswept shore. The air crackles with a strange energy, and soon you encounter a hunched figure—a man with skin weathered like bark and eyes burning with bitterness. Caliban snarls as he rants about Prospero, his master. 'That tyrant! That thief!' he spits, his voice raw with venom. He looks at you with suspicion. How do you respond?",
       "choices": [
         { "number": 0, "text": "'Prospero does seem harsh. I sympathize with you.'", "next": "q2" },
         { "number": 1, "text": "'Stop complaining and take control of your fate!'", "next": "q2" }
@@ -11,7 +11,7 @@
     },
     {
       "id": "q2",
-      "question": "Caliban narrows his eyes, his body stiffening as if gauging whether to trust you. 'Hah! What do you know of suffering? You make quick statements without any information! Only I know my life.' he sneers. Then his tone softens, almost begrudgingly. 'Still, you’re not Prospero... What are you doing here?' His words carry the weight of someone who has learned to expect treachery. You feel his eyes boring into you, searching for answers.",
+      "question": "Caliban narrows his eyes, his body stiffening as if gauging whether to trust you. 'Hah! What do you know of suffering? You make quick statements without any information! Only I know my life.' he sneers. Then his tone softens, almost begrudgingly. 'Still, you are not Prospero... What are you doing here?' His words carry the weight of someone who has learned to expect treachery. You feel his eyes boring into you, searching for answers.",
       "choices": [
         { "number": 0, "text": "'I was dropped here. I mean no harm; I want peace.'", "next": "q3" },
         { "number": 1, "text": "'I am a traveler, only here temporarily.'", "next": "q3" },
@@ -52,7 +52,7 @@
     },
     {
       "id": "q7",
-      "question": "Miranda greets you in a secluded glade, her presence as serene as the gentle rustle of leaves. 'You’re not like my father’s spirits,' she says, her curiosity radiating like sunlight breaking through clouds. 'You feel... human. I have not met one like you before.' Her naivety is disarming, yet her words carry an earnestness that demands honesty. Her presence reminds you of Eve before the fall—untouched by the world's malice.",
+      "question": "Miranda greets you in a secluded glade, her presence as serene as the gentle rustle of leaves. 'You are not like my father’s spirits,' she says, her curiosity radiating like sunlight breaking through clouds. 'You feel... human. I have not met one like you before.' Her naivety is disarming, yet her words carry an earnestness that demands honesty. Her presence reminds you of Eve before the fall—untouched by the world's malice.",
       "choices": [
         { "number": 0, "text": "Tell Miranda to leave the island and explore life with the freedom to explore", "next": "q9" },
         { "number": 1, "text": "Nod, promising Miranda that in time, she will meet others like yourself, for this is guaranteed.", "next": "q9" }

@@ -63,7 +63,7 @@
       },
       {
         "id": "q9",
-        "question": "You say nothing, watching as Eve plucks the fruit and takes a bite. There’s a moment of silence, as if the universe holds its breath. Then—a bang, and everything collapses. Paradise dissolves into darkness, and you are thrust out. God’s judgment is clear: you have seen enough. What remains is the memory of Eve, and the knowledge that you let the Fall happen. The path ahead is dark, but you must press on.",
+        "question": "You say nothing, watching as Eve plucks the fruit and takes a bite. There is a moment of silence, as if the universe holds its breath. Then—a bang, and everything collapses. Paradise dissolves into darkness, and you are thrust out. God’s judgment is clear: you have seen enough. What remains is the memory of Eve, and the knowledge that you let the Fall happen. The path ahead is dark, but you must press on.",
         "choices": [
           { "number": 0, "text": "Move forward.", "next": "chapter8" }
         ]

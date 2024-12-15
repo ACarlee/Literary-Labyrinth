@@ -3,134 +3,6 @@ document.getElementById("start-button").addEventListener("click", () => {
   document.getElementById("game-container").style.display = "flex";
 });
 
-const gameFlow = {//this is the number of questions to skip until the one that pertains to the plyer's specific game. These hard coded values are the cost of having organized .json files
-  "chapter1": [
-    [1, 1], 
-    [1, 1],
-    [1, 1], 
-    [0, 0]
-  ],
-  "chapter2": [
-    [1, 4, 8, 11],
-    [1,2],
-    [12, 0],
-    [0],
-    [1,3],
-    [8,1],
-    [6,0],
-    [5,0],
-    [1,2],
-    [3,0],
-    [0],
-    [4,0],
-    [0,0],
-    [0,0],
-    [0],
-    [0,0]
-  ],
-  "chapter3":[
-    [1,2],
-    [2,3],
-    [1,3],
-    [3],
-    [2],
-    [1],
-    [1,2],
-    [2,2],
-    [1],
-    [1,2,3],
-    [0],
-    [0],
-    [0]
-  ], 
-  "chapter4":[
-    [1,2],
-    [2],
-    [0],
-    [1,2],
-    [0],
-    [1,2,3],
-    [0],
-    [0],
-    [1,2,3],
-    [0],
-    [0],
-    [0]
-  ],
-  "chapter5":[
-    [1,2],
-    [2,3],
-    [0],
-    [2,1],
-    [2,3,4],
-    [-1],
-    [3,3],
-    [0,0],
-    [0],
-    [0]
-  ],
-  "chapter6":[
-    [1,2],
-    [1],
-    [1,2,3],
-    [3],
-    [2],
-    [1],
-    [1,2],
-    [0],
-    [0]
-  ],
-    "chapter7": [
-      [1,2],
-      [2,2],
-      [0],
-      [1,1],
-      [1,2],
-      [2,3],
-      [0],
-      [0],
-      [0]
-    ],
-    "chapter8":[
-      [1,2],
-      [0],
-      [2,3,1],
-      [0],
-      [0],
-      [1,-4],
-      [1,2],
-      [0],
-      [2,1],
-      [0],
-      [0]
-    ],
-    "chapter9":[
-      [1,1],
-      [1,1,1],
-      [1,2,2],
-      [0],
-      [1,2],
-      [2,3],
-      [2,2],
-      [0],
-      [0]
-    ],
-    "chapter10":[
-      [1,1],
-      [1,2,3],
-      [3,3],
-      [2,2],
-      [1,1],
-      [1],
-      [1,2,3],
-      [0],
-      [0],
-      [1,2],
-      [0],
-      [0]
-    ]
-};
-
 document.addEventListener("DOMContentLoaded", async () => {
   const log = document.getElementById("log");
   const question = document.getElementById("question");
@@ -320,3 +192,131 @@ if (player.currentChapter === "chapter1" && questionData.question === "That is q
 
   await startChapter();
 });
+
+const gameFlow = {//this is the number of questions to skip until the one that pertains to the plyer's specific game. These hard coded values are the cost of having organized .json files
+  "chapter1": [
+    [1, 1], 
+    [1, 1],
+    [1, 1], 
+    [0, 0]
+  ],
+  "chapter2": [
+    [1, 4, 8, 11],
+    [1,2],
+    [12, 0],
+    [0],
+    [1,3],
+    [8,1],
+    [6,0],
+    [5,0],
+    [1,2],
+    [3,0],
+    [0],
+    [4,0],
+    [0,0],
+    [0,0],
+    [0],
+    [0,0]
+  ],
+  "chapter3":[
+    [1,2],
+    [2,3],
+    [1,3],
+    [3],
+    [2],
+    [1],
+    [1,2],
+    [2,2],
+    [1],
+    [1,2,3],
+    [0],
+    [0],
+    [0]
+  ], 
+  "chapter4":[
+    [1,2],
+    [2],
+    [0],
+    [1,2],
+    [0],
+    [1,2,3],
+    [0],
+    [0],
+    [1,2,3],
+    [0],
+    [0],
+    [0]
+  ],
+  "chapter5":[
+    [1,2],
+    [2,3],
+    [0],
+    [2,1],
+    [2,3,4],
+    [-1],
+    [3,3],
+    [0,0],
+    [0],
+    [0]
+  ],
+  "chapter6":[
+    [1,2],
+    [1],
+    [1,2,3],
+    [3],
+    [2],
+    [1],
+    [1,2],
+    [0],
+    [0]
+  ],
+    "chapter7": [
+      [1,2],
+      [2,2],
+      [0],
+      [1,1],
+      [1,2],
+      [2,3],
+      [0],
+      [0],
+      [0]
+    ],
+    "chapter8":[
+      [1,2],
+      [0],
+      [2,3,1],
+      [0],
+      [0],
+      [1,-4],
+      [1,2],
+      [0],
+      [2,1],
+      [0],
+      [0]
+    ],
+    "chapter9":[
+      [1,1],
+      [1,1,1],
+      [1,2,2],
+      [0],
+      [1,2],
+      [2,3],
+      [2,2],
+      [0],
+      [0]
+    ],
+    "chapter10":[
+      [1,1],
+      [1,2,3],
+      [3,3],
+      [2,2],
+      [1,1],
+      [1],
+      [1,2,3],
+      [0],
+      [0],
+      [1,2],
+      [0],
+      [0]
+    ]
+};

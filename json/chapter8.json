@@ -18,7 +18,7 @@
     },
     {
       "id": "q3",
-      "question": "You decide to leave, but Utopia doesn’t make it easy. What's your plan?",
+      "question": "You decide to leave, but Utopia does not make it easy. What's your plan?",
       "choices": [
         { "number": 0, "text": "Escape now.", "next": "q5" },
         { "number": 1, "text": "Lie low, gathering time to plan your escape.", "next": "q6" },
@@ -49,7 +49,7 @@
     },
     {
       "id": "q7",
-      "question": "You resolute yourself to your goal. Trying to do this the official way, you walk out, seeking to ask Utopian officials to travel and use that as a means of escape. However, when walking, you see a penny face up. That's good luck. Do you pick it up?",
+      "question": "You resolute yourself to your goal. Trying to do this the official way, you walk out, seeking to ask Utopian officials to travel and use that as a means of escape. However, when walking, you see a penny face up. That is good luck. Do you pick it up?",
       "choices": [
         { "number": 0, "text": "Yes. You need the luck.", "next": "q8" },
         { "number": 1, "text": "No. Leave it.", "next": "q9" }
@@ -79,7 +79,7 @@
     },
     {
       "id": "q11",
-      "question": "You pass and are allowed to travel, letting you escape. But at what price? You reflect on the penny and the secret. Such small, silly details could've cost you your life. But, why couldn't you keep them? You notice how, when trying to fit in the perfect society, you become less human. You carry the weight of a missing penny and lost secret for the rest of your life- or at least, what you hope is a life.",
+      "question": "You pass and are allowed to travel, letting you escape. But at what price? You reflect on the penny and the secret. Such small, silly details could have cost you your life. But, why could you not keep them? You notice how, when trying to fit in the perfect society, you become less human. You carry the weight of a missing penny and lost secret for the rest of your life- or at least, what you hope is a life.",
       "choices": [
         { "number": 0, "text": "Escape Utopia.", "next": "chapter10" }      ]
     }
